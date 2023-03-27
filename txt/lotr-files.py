@@ -1,6 +1,7 @@
-import spacy
 import os
+import spacy
 
+#nlp = spacy.cli.download("en_core_web_md")
 nlp = spacy.load('en_core_web_md')
 
 workingDir = os.getcwd()
@@ -11,3 +12,17 @@ print('01-The_Fellowship-Of-The_Ring.txt', '02-The-Two-Towers.txt', '03-The-Retu
 
 CollPath = os.path.join(workingDir, 'source-txt')
 print(CollPath)
+
+
+def readTextFiles(filepath):
+    with open(filepath, 'source-txt', encoding='utf8') as f:
+        readFile = f.read()
+        print(filepath)
+
+    for i in filepath:
+        stringFiles = str(readTextFiles('01-The_Fellowship-Of-The_Ring.txt', '02-The-Two-Towers.txt', '03-The-Return-Of-The-King.txt'))
+        x = nlp(stringFiles)
+        WordofInterest = nlp('Sauron')
+        print(x, WordofInterest)
+
+    return
