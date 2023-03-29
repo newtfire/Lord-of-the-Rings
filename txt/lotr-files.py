@@ -3,7 +3,7 @@ import spacy
 import re as regex
 # ebb: I'm adding one more import line that we'll use for regex substitutions later
 
-#nlp = spacy.cli.download("en_core_web_md")
+#nlp = spacy.cli.download("en_core_web_lg")
 nlp = spacy.load('en_core_web_lg')
 ## ebb: In the line above I'm loading the large spaCy language model. You can change it to md if you want. I just had
 # the lg version on my computer. If you go with the lg,you need to uncomment the line above and import it, and it can take
@@ -32,7 +32,7 @@ def readTextFiles(filepath):
         # Your filepaths should output properly now.
         readFile = f.read()
         stringFile = str(readFile)
-        # Using REGEX to remove element tags for the moment so they don't get involved in the NLP.
+        # ebb: Using REGEX to remove element tags for the moment so they don't get involved in the NLP.
         elementsRemoved = regex.sub('<.+?>', '', stringFile)
         tokens = nlp(elementsRemoved)
         # print(tokens)
@@ -46,10 +46,13 @@ def readTextFiles(filepath):
 def entitycollector(tokens):
     entities = []
     for entity in tokens.ents:
-        # if entity.label_ == "CARDINAL":
+        # if entity.label_ == "NORP" or entity.label_ == "LOC" or entity.label_=="GPE":
+        # ebb: The line helps experiment with different spaCy named entity classifiers, in combination if you like:
+        # When using it, remember to indent the next lines for the for loop.
         print(entity.text, entity.label_, spacy.explain(entity.label_))
         entities.append(entity.text)
     return entities
+    # ebb: Keep the return line in position at same indentation level as the definition of the entities variable.
 
 # 2. ebb: The for loop below is working with your CollPath, and going through each file inside,
 # and sending it up to readTextFiles, where the nlp processing will happen.
