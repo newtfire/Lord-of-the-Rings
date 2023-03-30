@@ -3,10 +3,18 @@ import spacy
 import re as regex
 # ebb: I'm adding one more import line that we'll use for regex substitutions later
 
+<<<<<<< HEAD
 
 
 nlp = spacy.cli.download("en_core_web_md")
 nlp = spacy.load('en_core_web_md')
+=======
+#nlp = spacy.cli.download("en_core_web_lg")
+nlp = spacy.load('en_core_web_lg')
+## ebb: In the line above I'm loading the large spaCy language model. You can change it to md if you want. I just had
+# the lg version on my computer. If you go with the lg,you need to uncomment the line above and import it, and it can take
+# a little while to finish importing.
+>>>>>>> a6632e4b0644d7aa109a034400cbac68d2598876
 
 #nlp = spacy.cli.download("en_core_web_lg")
 nlp = spacy.load('en_core_web_lg')
@@ -35,7 +43,19 @@ def readTextFiles(filepath):
     # ebb: In the line above, you need 'r' to indicate you've opened this to read data from it.
     # (The alternative is 'w' whic means you're opening the file to write data into it.)
         print(filepath)
+        # Your filepaths should output properly now.
+        readFile = f.read()
+        stringFile = str(readFile)
+        # ebb: Using REGEX to remove element tags for the moment so they don't get involved in the NLP.
+        elementsRemoved = regex.sub('<.+?>', '', stringFile)
+        tokens = nlp(elementsRemoved)
+        # print(tokens)
+        listEntities = entitycollector(tokens)
+        # ebb: The line above sends our nlp tokens to the named entity collector function.
+        # THIS current function will receive and print a simple form of their output in the next line.
+        print(listEntities)
 
+<<<<<<< HEAD
     return
 
 def assembleAllNames(CollPath):
@@ -64,6 +84,8 @@ def assembleAllNames(CollPath):
         # THIS current function will receive and print a simple form of their output in the next line.
     print(listEntities)
 
+=======
+>>>>>>> a6632e4b0644d7aa109a034400cbac68d2598876
 # 4. ebb: The function below returns a simple list of named entities.
 # But on the way, we're printing out as much we can from spaCy's classification of named entities:
 def entitycollector(tokens):
@@ -84,4 +106,7 @@ for file in os.listdir(CollPath):
         filepath = f"{CollPath}/{file}"
         # print(filepath)
         readTextFiles(filepath)
+<<<<<<< HEAD
 
+=======
+>>>>>>> a6632e4b0644d7aa109a034400cbac68d2598876
