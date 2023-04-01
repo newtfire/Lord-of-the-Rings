@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+    <start>
+        <choice>
+            <ref name="book"/>
+            <ref name="character"/>
+            <ref name="location"/>
+        </choice>
+    </start>
+    
+    <define name="book">
+        <element name="book">
+            <attribute name="id">
+                <data type="string"/>
+            </attribute>
+            <element name="title">
+                <text/>
+            </element>
+            <element name="author">
+                <text/>
+            </element>
+            <element name="publication_date">
+                <text/>
+            </element>
+            <element name="summary">
+                <text/>
+            </element>
+        </element>
+    </define>
+    
+    <define name="character">
+        <element name="character">
+            <attribute name="id">
+                <data type="string"/>
+            </attribute>
+            <element name="name">
+                <text/>
+            </element>
+            <element name="race">
+                <text/>
+            </element>
+            <element name="description">
+                <text/>
+            </element>
+        </element>
+    </define>
+    
+    <define name="location">
+        <element name="location">
+            <attribute name="id">
+                <data type="string"/>
+            </attribute>
+            <element name="name">
+                <text/>
+            </element>
+            <element name="description">
+                <text/>
+            </element>
+        </element>
+    </define>
+    
+</grammar>
