@@ -1,23 +1,19 @@
 import os
 import spacy
 import re as regex
-# ebb: I'm adding one more import line that we'll use for regex substitutions later
 
-<<<<<<< HEAD
+#nlp = spacy.cli.download("en_core_web_md")
+#nlp = spacy.load('en_core_web_md')
 
-
-nlp = spacy.cli.download("en_core_web_md")
-nlp = spacy.load('en_core_web_md')
-=======
 #nlp = spacy.cli.download("en_core_web_lg")
 nlp = spacy.load('en_core_web_lg')
 ## ebb: In the line above I'm loading the large spaCy language model. You can change it to md if you want. I just had
 # the lg version on my computer. If you go with the lg,you need to uncomment the line above and import it, and it can take
 # a little while to finish importing.
->>>>>>> a6632e4b0644d7aa109a034400cbac68d2598876
+
 
 #nlp = spacy.cli.download("en_core_web_lg")
-nlp = spacy.load('en_core_web_lg')
+#nlp = spacy.load('en_core_web_lg')
 ## ebb: In the line above I'm loading the large spaCy language model. You can change it to md if you want. I just had
 # the lg version on my computer. If you go with the lg,you need to uncomment the line above and import it, and it can take
 # a little while to finish importing.
@@ -54,8 +50,6 @@ def readTextFiles(filepath):
         # ebb: The line above sends our nlp tokens to the named entity collector function.
         # THIS current function will receive and print a simple form of their output in the next line.
         print(listEntities)
-
-<<<<<<< HEAD
     return
 
 def assembleAllNames(CollPath):
@@ -84,8 +78,6 @@ def assembleAllNames(CollPath):
         # THIS current function will receive and print a simple form of their output in the next line.
     print(listEntities)
 
-=======
->>>>>>> a6632e4b0644d7aa109a034400cbac68d2598876
 # 4. ebb: The function below returns a simple list of named entities.
 # But on the way, we're printing out as much we can from spaCy's classification of named entities:
 def entitycollector(tokens):
@@ -106,7 +98,4 @@ for file in os.listdir(CollPath):
         filepath = f"{CollPath}/{file}"
         # print(filepath)
         readTextFiles(filepath)
-<<<<<<< HEAD
 
-=======
->>>>>>> a6632e4b0644d7aa109a034400cbac68d2598876
