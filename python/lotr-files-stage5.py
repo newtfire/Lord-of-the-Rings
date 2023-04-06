@@ -1,8 +1,7 @@
-# STAGE 5: LET'S CLEAN THIS UP: DEALING WITH MESSY NLP TAGGING
-# We will try adding an EntityRuler to guide spaCy.
-# pip install saxonche
-# The library above lets you read and pull data with XPath
-
+import os
+import spacy
+import re as regex
+from saxonche import PySaxonProcessor
 # ebb: The line above imports the PySaxonProcessor from SaxonCHE (free "home edition")
 # for work with XPath
 
@@ -15,8 +14,8 @@ nlp = spacy.load('en_core_web_lg')
 # 1. ebb: Define the paths to the source collection and the target collection.
 # We can use a relative path defined from this Python file's location.
 ##################################################################################
-CollPath = '../source-xml'
-TargetPath = '../taggedWithAtts'
+Collpath = '../source-xml'
+targetpath = '../xmltagger'
 
 #########################################################################################
 # ebb: After reading the sorted dictionary output, we know spaCy is making some mistakes.

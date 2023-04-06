@@ -1,8 +1,8 @@
 import os
 import spacy
 import re as regex
-
 #nlp = spacy.cli.download("en_core_web_md")
+
 #nlp = spacy.load('en_core_web_md')
 
 #nlp = spacy.cli.download("en_core_web_lg")
