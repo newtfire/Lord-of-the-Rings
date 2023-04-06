@@ -14,8 +14,8 @@ nlp = spacy.load('en_core_web_lg')
 # 1. ebb: Define the paths to the source collection and the target collection.
 # We can use a relative path defined from this Python file's location.
 ##################################################################################
-Collpath = '../source-xml'
-targetpath = '../xmltagger'
+CollPath = '../source-xml'
+TargetPath = 'xmltagger'
 
 #########################################################################################
 # ebb: After reading the sorted dictionary output, we know spaCy is making some mistakes.
@@ -33,6 +33,7 @@ ruler = nlp.add_pipe("span_ruler", before="ner", config=config)
 # But this only works when spaCy doesn't recognize a word / phrase as a named entity of any kind.
 # If it recognizes a named entity but tags it wrong, we correct it with the span_ruler, not the entity_ruler
 patterns = [
+    {"label": "FAC", "pattern": "Brandywine Bridge"},
     {"label": "ORG", "pattern": "Balrog"},
     {"label": "GPE", "pattern": "Bree"},
     {"label": "LOC", "pattern": "Middle-earth"},
@@ -109,6 +110,8 @@ def readTextFiles(filepath):
 
         # ebb: Here we changed to the Saxon processor to read files with XPath.
         # From here on, we change how we formulate the string that Python will send to NLP.
+    with PySaxonProcessor(license=False) as proc:
+        xml = open(filepath, encoding='utf-8').read()
         xp = proc.new_xpath_processor()
         node = proc.parse_xml(xml_text=xml)
         xp.set_context(xdm_item=node)
@@ -123,8 +126,8 @@ def readTextFiles(filepath):
         string = str(xpath)
         # ebb: Doing some regex replacements to clean up punctuation issues that are getting in the way of the NER tagger
         cleanedUp = regex.sub("_", " ", string)
-        cleanedUp = regex.sub("'([A-Z])]", " \1", cleanedUp)
-        cleanedUp = regex.sub("([.!?;'`])([A-Z'`]])", "\1 \2", cleanedUp)
+        cleanedUp = regex.sub(r"'([A-Z])]", r" \1", cleanedUp)
+        cleanedUp = regex.sub(r"([.!?;'`])([A-Z'`]])", r"\1 \2", cleanedUp)
         # send to spaCy to collect nlp data on the big string
         tokens = nlp(cleanedUp)
         # tokens = nlp.pipe(cleanedUp, disable=["tagger", "parser", "attribute_ruler", "lemmatizer"])
@@ -214,11 +217,13 @@ def xmlTagger(sourcePath, SortedDict):
             replacement = '<name type="' + val + '">' + key + '</name>'
             # print(f"{replacement=}")
             stringFile = stringFile.replace(key, replacement)
-            # print(f"{stringFile=}")
+            cleanedUp = regex.sub(r"(<name type=\"[A-Z]+?\">.*?)<name type=\"[A-Z]+?\">(.+?)</name>(.*?</name>)", r"\1\2\3", stringFile)
+            cleanedUp = regex.sub(r"(<name type=\"[A-Z]+?\">.*?)<name type=\"[A-Z]+?\">(.+?)</name>(.*?</name>)", r"\1\2\3", cleanedUp)
+            cleanedUp = regex.sub(r"(<name type=\"[A-Z]+?\">.*?)<name type=\"[A-Z]+?\">(.+?)</name>(.*?</name>)", r"\1\2\3", cleanedUp)
 
         # ebb: Output goes in the taggedOutput directory: ../taggedOutput
         with open(targetFile, 'w') as f:
-            f.write(stringFile)
+            f.write(cleanedUp)
 
 assembleAllNames(CollPath)
 
