@@ -99,3 +99,4 @@ for file in os.listdir(CollPath):
         # print(filepath)
         readTextFiles(filepath)
 
+
