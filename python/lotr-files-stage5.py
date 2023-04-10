@@ -9,12 +9,11 @@ from saxonche import PySaxonProcessor
 # nlp = spacy.cli.download("en_core_web_lg")
 nlp = spacy.load('en_core_web_lg')
 
-###############################################################################
-################################################################################
-# 1. ebb: Define the paths to the source collection and the target collection.
-# We can use a relative path defined from this Python file's location.
-##################################################################################
+
+# Noah: Our team reached into the source-xml mkdir and defined it as a variable called "CollPath"
 CollPath = '../source-xml'
+# Noah: We then output the xml documented tags into a directory called xmltagger.
+# Noah: We defined the collection as "TargetPath". 
 TargetPath = 'xmltagger'
 
 #########################################################################################
