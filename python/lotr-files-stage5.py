@@ -4,8 +4,9 @@ import re as regex
 from saxonche import PySaxonProcessor
 # ebb: The line above imports the PySaxonProcessor from SaxonCHE (free "home edition")
 # for work with XPath
+# Noah: These are the import modules above.
 
-
+# Noah: you can use nlp.cli.download("en_core_web_lg") to run over large xml or text documents.
 # nlp = spacy.cli.download("en_core_web_lg")
 nlp = spacy.load('en_core_web_lg')
 
@@ -16,15 +17,12 @@ CollPath = '../source-xml'
 # Noah: We defined the collection as "TargetPath". 
 TargetPath = 'xmltagger'
 
-#########################################################################################
+
 # ebb: After reading the sorted dictionary output, we know spaCy is making some mistakes.
 # So, here let's try adding an EntityRuler to customize spaCy's classification. We need
 # to configure this BEFORE we send the tokens off to nlp() for processing.
-##########################################################################################
 # Create the EntityRuler and set it so the ner comes after, so OUR rules take precedence
 # Sources:
-#   W. J. B. Mattingly: https://ner.pythonhumanities.com/02_01_spaCy_Entity_Ruler.html
-#   spaCy documentation on NER Entity Ruler: https://spacy.io/usage/rule-based-matching#entityruler
 
 config = {"spans_key": None, "annotate_ents": True, "overwrite": True, "validate": True}
 ruler = nlp.add_pipe("span_ruler", before="ner", config=config)
@@ -146,6 +144,7 @@ def readTextFiles(filepath):
 ##########################################################################################
 
 # 4. ebb: The function below returns a simple list of named entities.
+# Noah: We can control this in the patterns list above in order to correct the entities.
 # But on the way, we're printing out as much we can from spaCy's classification of named entities:
 def entitycollector(tokens):
     entities = {}
