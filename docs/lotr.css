@@ -1,3 +1,48 @@
 body {
     background-color: tan;
+    margin: 0;
+    padding: 0;
+}
+
+.header-img {
+    padding-top: 45px;
+    background-image: url("images/header_img.jpg");
+    height: 100px;
+    width: 100%;
+    max-width: auto;
+}
+
+h1 {
+    padding-left: 25px;
+    padding-top: 35px;
+    color: white;
+    font-family: "Calibri Light";
+}
+
+nav {
+    width: 100%;
+    max-width: auto;
+    float: left;
+    word-spacing: 5px;
+    background-image: linear-gradient(gold, #fff);
+}
+
+li {
+    display: inline-block; 
+
+}
+
+button {
+    border-bottom: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 10px;
+    background: transparent;
+    font-size: 15px;
+    
+}
+
+button:hover {
+    border-bottom: #fff;
 }

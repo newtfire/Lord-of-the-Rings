@@ -18,26 +18,17 @@ body {
     }
 
 nav{
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;      
+    display: inline-block;    
 }
 
 nav img{
     width: 300px;
+    height: 600px;
 }
   
-
-.nav-links{
-    flex:1;
-    text-align: right;
-      
-}
-
 .nav-links ul li{
     list-style: none;
-    display: inline-block;
+    display: flex;
     padding: 8px 20px;
     position: relative;
     
@@ -134,23 +125,4 @@ nav .fa{
         padding: 30px;
     }
  }
-
-.TextData {
-   color: rgba(15, 15, 77, 1); 
-    
-}
-.Method {
-    color: rgba(15, 15, 77, 1);
-    
-}
-
-.Results {
-   color: rgba(15, 15, 77, 1); 
-    
-}
-
-.Conclusion {
-    color: rgba(15, 15, 77, 1);
-    
-}
 
