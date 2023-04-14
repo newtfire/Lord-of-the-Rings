@@ -9,7 +9,7 @@ body {
     background-image: url("images/header_img.jpg");
     height: 100px;
     width: 100%;
-    max-width: auto;
+    max-width: 100%;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
 
 nav {
     width: 100%;
-    max-width: auto;
+    max-width: 100%;
     float: left;
     word-spacing: 5px;
     background-image: linear-gradient(gold, #fff);
