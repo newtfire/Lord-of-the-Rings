@@ -27,10 +27,7 @@ nav {
     background-image: linear-gradient(gold, #fff);
 }
 
-li {
-    display: inline-block; 
-
-}
+li {display: inline-block;}
 
 button {
     border-bottom: solid;
@@ -40,7 +37,6 @@ button {
     padding: 10px;
     background: transparent;
     font-size: 15px;
-    
 }
 
 button:hover {
