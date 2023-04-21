@@ -1,4 +1,4 @@
-declare variable $lotr := collection("../python/xmltagger/?select=*.xml");
+declare variable $lotr := collection("../../python/xmltagger");
 (: CAUTION: ABOVE IS A RELATIVE FILE PATH DESIGNED FOR WORKING IN oXYGEN ON YOUR LOCAL COMPUTER.
 IT READS UP ABOVE THE PARENT DIRECTORY OF THIS XQUERY FILE, and DOWN INTO FILES IT NEEDS IN A PROJECT.
 :)
