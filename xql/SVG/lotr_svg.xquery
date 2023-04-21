@@ -1,4 +1,4 @@
-declare variable $bojack := collection("../python/xmltagger/?select=*.xml");
+declare variable $lotr := collection("../python/xmltagger/?select=*.xml");
 (: CAUTION: ABOVE IS A RELATIVE FILE PATH DESIGNED FOR WORKING IN oXYGEN ON YOUR LOCAL COMPUTER.
 IT READS UP ABOVE THE PARENT DIRECTORY OF THIS XQUERY FILE, and DOWN INTO FILES IT NEEDS IN A PROJECT.
 :)
@@ -10,9 +10,9 @@ declare variable $ySpacer := 50;
 (: These are the different kinds of name types to look for :)
 
 
-declare variable $allNames := $bojack//name/@type => distinct-values();
+declare variable $allNames := $lotr//name/@type => distinct-values();
 
-declare variable $nameTotal := $bojack//name/@type => count();
+declare variable $nameTotal := $lotr//name/@type => count();
 (: ebb: Note: The line above gets the count of all type attributes on names including duplicates. 
 And yes, this is the value you want to use, and it works. We learn that 82% of the names are persons.
 :)
@@ -35,7 +35,7 @@ And yes, this is the value you want to use, and it works. We learn that 82% of t
         
         {
             for $n at $pos in $allNames
-            let $countType := $bojack//Q{}name[@type=$n]/@type => count()
+            let $countType := $lotr//Q{}name[@type=$n]/@type => count()
             
             
             let $namePerc := $countType div $nameTotal * 100
