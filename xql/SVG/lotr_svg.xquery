@@ -3,7 +3,7 @@ declare variable $lotr := collection("../../python/xmltagger");
 IT READS UP ABOVE THE PARENT DIRECTORY OF THIS XQUERY FILE, and DOWN INTO FILES IT NEEDS IN A PROJECT.
 :)
 
-declare variable $colors := ("lightblue", "lightgreen", "blue", "green", "lightpink");
+declare variable $colors := ("light green", "orange", "dark blue", "aqua", "light yellow");
 declare variable $xSpacer := 5;
 declare variable $ySpacer := 50;
 
@@ -30,7 +30,7 @@ And yes, this is the value you want to use, and it works. We learn that 82% of t
     
     
     <g
-        transform="translate(200, 700)">
+        transform="translate(90, 50)">
       
         
         {
@@ -67,7 +67,7 @@ attribute it is. :)
                         stroke-width='20'/>
                         
                      <text 
-                        x="-100"
+                        x="-90"
                         y="{$pos * $ySpacer}"
                         stroke="black"
                         >
