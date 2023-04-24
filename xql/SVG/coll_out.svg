@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-   <g transform="translate(90, 50)">
+   <g transform="translate(70, 50)">
       <g id="ORG">
          <line x1="0"
                y1="50"
-               x2="239.8432965757399885"
+               x2="479.686593151479977"
                y2="50"
                stroke="light green"
                stroke-width="20"/>
@@ -13,7 +13,7 @@
       <g id="GPE">
          <line x1="0"
                y1="100"
-               x2="118.3981427742309925"
+               x2="236.796285548461985"
                y2="100"
                stroke="orange"
                stroke-width="20"/>
@@ -22,7 +22,7 @@
       <g id="NORP">
          <line x1="0"
                y1="150"
-               x2="7.109692396982008"
+               x2="14.219384793964016"
                y2="150"
                stroke="dark blue"
                stroke-width="20"/>
@@ -31,7 +31,7 @@
       <g id="LOC">
          <line x1="0"
                y1="200"
-               x2="105.702263493905978"
+               x2="211.404526987811956"
                y2="200"
                stroke="aqua"
                stroke-width="20"/>
@@ -40,7 +40,7 @@
       <g id="FAC">
          <line x1="0"
                y1="250"
-               x2="28.946604759141033"
+               x2="57.893209518282066"
                y2="250"
                stroke="light yellow"
                stroke-width="20"/>
@@ -48,7 +48,7 @@
       </g>
       <line x1="0"
             y1="300"
-            x2="500"
+            x2="1000"
             y2="300"
             stroke="black"
             stroke-width="3"/>
@@ -60,21 +60,9 @@
             stroke="black"
             stroke-width="3"/>
       <!-- Y axis -->
-      <line x1="100"
-            y1="350"
-            x2="100"
-            y2="250"
-            stroke="green"
-            stroke-width="1"/>
       <line x1="200"
             y1="350"
             x2="200"
-            y2="250"
-            stroke="green"
-            stroke-width="1"/>
-      <line x1="300"
-            y1="350"
-            x2="300"
             y2="250"
             stroke="green"
             stroke-width="1"/>
@@ -84,9 +72,21 @@
             y2="250"
             stroke="green"
             stroke-width="1"/>
-      <line x1="500"
+      <line x1="600"
             y1="350"
-            x2="500"
+            x2="600"
+            y2="250"
+            stroke="green"
+            stroke-width="1"/>
+      <line x1="800"
+            y1="350"
+            x2="800"
+            y2="250"
+            stroke="green"
+            stroke-width="1"/>
+      <line x1="1000"
+            y1="350"
+            x2="1000"
             y2="250"
             stroke="green"
             stroke-width="1"/>

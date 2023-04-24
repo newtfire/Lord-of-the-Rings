@@ -4,7 +4,7 @@ IT READS UP ABOVE THE PARENT DIRECTORY OF THIS XQUERY FILE, and DOWN INTO FILES 
 :)
 
 declare variable $colors := ("light green", "orange", "dark blue", "aqua", "light yellow");
-declare variable $xSpacer := 5;
+declare variable $xSpacer := 10;
 declare variable $ySpacer := 50;
 
 (: These are the different kinds of name types to look for :)
@@ -30,7 +30,7 @@ And yes, this is the value you want to use, and it works. We learn that 82% of t
     
     
     <g
-        transform="translate(90, 50)">
+        transform="translate(70, 50)">
       
         
         {
