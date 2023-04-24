@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+<<<<<<< HEAD
    <g transform="translate(200, 700)">
       <g id="ORG">
          <line x1="0"
@@ -9,37 +10,73 @@
                stroke="lightblue"
                stroke-width="20"/>
          <text x="-100" y="50" stroke="black">ORG</text>
+=======
+   <g transform="translate(70, 50)">
+      <g id="ORG">
+         <line x1="0"
+               y1="50"
+               x2="479.686593151479977"
+               y2="50"
+               stroke="light green"
+               stroke-width="20"/>
+         <text x="-90" y="50" stroke="black">ORG</text>
+>>>>>>> dea463933c4206f00c089443a3c2006e7fa92db4
       </g>
       <g id="GPE">
          <line x1="0"
                y1="100"
+<<<<<<< HEAD
                x2="118.3981427742309925"
                y2="100"
                stroke="lightgreen"
                stroke-width="20"/>
          <text x="-100" y="100" stroke="black">GPE</text>
+=======
+               x2="236.796285548461985"
+               y2="100"
+               stroke="orange"
+               stroke-width="20"/>
+         <text x="-90" y="100" stroke="black">GPE</text>
+>>>>>>> dea463933c4206f00c089443a3c2006e7fa92db4
       </g>
       <g id="NORP">
          <line x1="0"
                y1="150"
+<<<<<<< HEAD
                x2="7.109692396982008"
                y2="150"
                stroke="blue"
                stroke-width="20"/>
          <text x="-100" y="150" stroke="black">NORP</text>
+=======
+               x2="14.219384793964016"
+               y2="150"
+               stroke="dark blue"
+               stroke-width="20"/>
+         <text x="-90" y="150" stroke="black">NORP</text>
+>>>>>>> dea463933c4206f00c089443a3c2006e7fa92db4
       </g>
       <g id="LOC">
          <line x1="0"
                y1="200"
+<<<<<<< HEAD
                x2="105.702263493905978"
                y2="200"
                stroke="green"
                stroke-width="20"/>
          <text x="-100" y="200" stroke="black">LOC</text>
+=======
+               x2="211.404526987811956"
+               y2="200"
+               stroke="aqua"
+               stroke-width="20"/>
+         <text x="-90" y="200" stroke="black">LOC</text>
+>>>>>>> dea463933c4206f00c089443a3c2006e7fa92db4
       </g>
       <g id="FAC">
          <line x1="0"
                y1="250"
+<<<<<<< HEAD
                x2="28.946604759141033"
                y2="250"
                stroke="lightpink"
@@ -49,6 +86,17 @@
       <line x1="0"
             y1="300"
             x2="500"
+=======
+               x2="57.893209518282066"
+               y2="250"
+               stroke="light yellow"
+               stroke-width="20"/>
+         <text x="-90" y="250" stroke="black">FAC</text>
+      </g>
+      <line x1="0"
+            y1="300"
+            x2="1000"
+>>>>>>> dea463933c4206f00c089443a3c2006e7fa92db4
             y2="300"
             stroke="black"
             stroke-width="3"/>
@@ -60,33 +108,57 @@
             stroke="black"
             stroke-width="3"/>
       <!-- Y axis -->
+<<<<<<< HEAD
       <line x1="100"
             y1="350"
             x2="100"
             y2="250"
             stroke="green"
             stroke-width="1"/>
+=======
+>>>>>>> dea463933c4206f00c089443a3c2006e7fa92db4
       <line x1="200"
             y1="350"
             x2="200"
             y2="250"
             stroke="green"
             stroke-width="1"/>
+<<<<<<< HEAD
       <line x1="300"
             y1="350"
             x2="300"
             y2="250"
             stroke="green"
             stroke-width="1"/>
+=======
+>>>>>>> dea463933c4206f00c089443a3c2006e7fa92db4
       <line x1="400"
             y1="350"
             x2="400"
             y2="250"
             stroke="green"
             stroke-width="1"/>
+<<<<<<< HEAD
       <line x1="500"
             y1="350"
             x2="500"
+=======
+      <line x1="600"
+            y1="350"
+            x2="600"
+            y2="250"
+            stroke="green"
+            stroke-width="1"/>
+      <line x1="800"
+            y1="350"
+            x2="800"
+            y2="250"
+            stroke="green"
+            stroke-width="1"/>
+      <line x1="1000"
+            y1="350"
+            x2="1000"
+>>>>>>> dea463933c4206f00c089443a3c2006e7fa92db4
             y2="250"
             stroke="green"
             stroke-width="1"/>
