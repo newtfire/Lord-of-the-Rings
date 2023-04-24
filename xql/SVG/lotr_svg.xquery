@@ -1,10 +1,14 @@
+<<<<<<< HEAD
+declare variable $lotr := collection("../../python/xmltagger/?select=*.xml");
+=======
 declare variable $lotr := collection("../../python/xmltagger");
+>>>>>>> dea463933c4206f00c089443a3c2006e7fa92db4
 (: CAUTION: ABOVE IS A RELATIVE FILE PATH DESIGNED FOR WORKING IN oXYGEN ON YOUR LOCAL COMPUTER.
 IT READS UP ABOVE THE PARENT DIRECTORY OF THIS XQUERY FILE, and DOWN INTO FILES IT NEEDS IN A PROJECT.
 :)
 
 declare variable $colors := ("light green", "orange", "dark blue", "aqua", "light yellow");
-declare variable $xSpacer := 5;
+declare variable $xSpacer := 10;
 declare variable $ySpacer := 50;
 
 (: These are the different kinds of name types to look for :)
@@ -30,7 +34,7 @@ And yes, this is the value you want to use, and it works. We learn that 82% of t
     
     
     <g
-        transform="translate(90, 50)">
+        transform="translate(70, 50)">
       
         
         {
