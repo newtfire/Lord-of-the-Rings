@@ -27,7 +27,10 @@ nav {
     background-image: linear-gradient(gold, #fff);
 }
 
-li {display: inline-block;}
+li {
+    display: inline-block; 
+
+}
 
 button {
     border-bottom: solid;
@@ -37,49 +40,9 @@ button {
     padding: 10px;
     background: transparent;
     font-size: 15px;
+    
 }
 
 button:hover {
     border-bottom: #fff;
 }
-
-.text-box {
-    width: 90%;
-    color:  #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    
-    
-}
- .text-box h1 {
-    font-size: 46px;
-     
-}
-.text-box p {
-    margin: 10px 0 40px;
-    font-size: 25px;
-    color: #fff;
-}
-
-.click-box{
-    display:inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 15px;
-    background: transparent;
-    position:relative;
-    cursor: pointer;
-     
-}
-
-.click-box:hover{
-    border:1px solid #f44336;
-    transition: 1s;
-}
-
-
