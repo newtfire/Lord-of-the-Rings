@@ -5,7 +5,7 @@ declare variable $lotr := collection("../../python/xmltagger/?select=*.xml");
 IT READS UP ABOVE THE PARENT DIRECTORY OF THIS XQUERY FILE, and DOWN INTO FILES IT NEEDS IN A PROJECT.
 :)
 
-declare variable $colors := ("light green", "orange", "dark blue", "aqua", "light yellow");
+declare variable $colors := ("lightgreen", "orange", "darkblue", "aqua", "lightyellow");
 declare variable $xSpacer := 10;
 declare variable $ySpacer := 50;
 
@@ -32,7 +32,7 @@ And yes, this is the value you want to use, and it works. We learn that 82% of t
     
     
     <g
-        transform="translate(70, 50)">
+        transform="translate(130, 50)">
       
         
         {
@@ -87,7 +87,7 @@ attribute it is. :)
        <line 
             x1="0"
             y1="{6 * $ySpacer}"
-            x2="{100 * $xSpacer}"
+            x2="{50 * $xSpacer}"
             y2="{6 * $ySpacer}"
             stroke="black"
             stroke-width ="3"
@@ -105,16 +105,18 @@ attribute it is. :)
         
            { for $i at $pos in (1 to 5)
     return
-        <line 
-            x1="{2 * $pos * $xSpacer * 10}"
-            y1="{7 * $ySpacer}"
-            x2="{2 * $pos * $xSpacer * 10}"
-            y2="{5 * $ySpacer}"
-            stroke="green"
+      <g>  <line 
+            x1="{$pos * $xSpacer * 10}"
+            y1="{6.5 * $ySpacer}"
+            x2="{$pos * $xSpacer * 10}"
+            y2="{6 * $ySpacer}"
+            stroke="black"
             stroke-width ="1"
        />
-    
-    
+         <text style="text-anchor: middle" x="{$pos * $xSpacer * 10}" 
+         y="{7 * $ySpacer}">{$pos * 10}% </text>
+            
+    </g>
     
     
     }
