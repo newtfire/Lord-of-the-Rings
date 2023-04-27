@@ -2,7 +2,7 @@ body {
     background-color: tan;
     margin: 0;
     padding: 0;
-    font-family: "Calibri Light", "Calibri", sans-serif;
+    font-family: "Calibri", sans-serif;
 }
 
 .header-img {
@@ -20,13 +20,39 @@ h1 {
     
 }
 
+.title-img {
+    background-image: url("images/background-img/fellowship.jpg");
+    margin-top: 55px;
+    height: auto;
+}
+
+.block {
+    display: block;
+    background-color: tan;
+    border-color: black;
+    height: auto;
+    width: 92%;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.pg-heading {
+    color: white; 
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 nav {
+    height: auto;
     width: 100%;
     max-width: 100%;
     float: left;
     word-spacing: 5px;
-    background-image: linear-gradient(gold, #fff);
+    background-image: linear-gradient(grey, #fff);
 }
+
 nav a:link {
   text-decoration: none;
   color:black;
@@ -70,11 +96,10 @@ li {display: inline-block;}
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    text-align: center;
-    
-    
+    text-align: center;    
 }
- .text-box h1 {
+
+.text-box h1 {
     font-size: 46px;
      
 }
@@ -101,5 +126,3 @@ li {display: inline-block;}
     border:1px solid #f44336;
     transition: 1s;
 }
-
-
