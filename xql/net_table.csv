@@ -1,0 +1,455 @@
+name,shared name,Source ORG
+Aglarond,Aglarond,LOC
+Road,Road,FAC
+King Th�,King Th�,FAC
+White Rider,White Rider,ORG
+Elf,Elf,ORG
+Erkenbrand,Erkenbrand,ORG
+West,West,LOC
+House,House,ORG
+Rohirrim,Rohirrim,ORG
+Riders,Riders,ORG
+Shadowfax,Shadowfax,GPE
+Edoras,Edoras,ORG
+Hornburg,Hornburg,GPE
+Orc,Orc,ORG
+Men,Men,ORG
+Ford,Ford,ORG
+Dunland,Dunland,GPE
+Rohan,Rohan,GPE
+East,East,LOC
+Dale,Dale,ORG
+H�,H�,ORG
+Gate,Gate,FAC
+Coomb,Coomb,LOC
+Elves,Elves,ORG
+Fangorn,Fangorn,GPE
+Middle-earth,Middle-earth,LOC
+North,North,LOC
+Helm,Helm,GPE
+Dwarves,Dwarves,ORG
+Mirkwood,Mirkwood,GPE
+The Caverns,The Caverns,LOC
+Khaz,Khaz,GPE
+Eye,Eye,ORG
+Green,Green,ORG
+Ent,Ent,ORG
+Forest,Forest,ORG
+Minas Tirith,Minas Tirith,GPE
+Sun,Sun,ORG
+Gap,Gap,ORG
+Grimbold,Grimbold,ORG
+Meduseld,Meduseld,GPE
+Mountain,Mountain,LOC
+Wizard,Wizard,ORG
+South,South,LOC
+White Hand,White Hand,ORG
+Elvish,Elvish,NORP
+Gondor,Gondor,GPE
+Mordor,Mordor,GPE
+Barad-d,Barad-d,FAC
+Tower,Tower,FAC
+Sea,Sea,LOC
+Halflings,Halflings,GPE
+Tobold,Tobold,GPE
+Quickbeam,Quickbeam,GPE
+Dunharrow,Dunharrow,GPE
+Strider,Strider,ORG
+Thornbushes,Thornbushes,ORG
+Guard,Guard,ORG
+Rivendell,Rivendell,GPE
+Council,Council,ORG
+Hullo,Hullo,ORG
+Fair,Fair,ORG
+Brand,Brand,ORG
+Elendil,Elendil,ORG
+Stone,Stone,ORG
+River,River,LOC
+Thrihyrne,Thrihyrne,ORG
+Eldamar,Eldamar,GPE
+Arnor,Arnor,ORG
+Anor,Anor,GPE
+Ithil,Ithil,ORG
+Osgiliath,Osgiliath,NORP
+Hill,Hill,ORG
+Lune,Lune,ORG
+Tirion,Tirion,GPE
+Mercy,Mercy,ORG
+Black,Black,ORG
+Grey,Grey,ORG
+Mindolluin,Mindolluin,GPE
+Aiya,Aiya,GPE
+The Tower,The Tower,ORG
+Cirith,Cirith,ORG
+Sting,Sting,GPE
+Cross,Cross,ORG
+Shelob,Shelob,FAC
+Shire,Shire,LOC
+Pelargir,Pelargir,NORP
+Valley,Valley,LOC
+Hamfast,Hamfast,LOC
+Cleft,Cleft,NORP
+Shagrat,Shagrat,ORG
+Gorbag,Gorbag,GPE
+Ephel D�,Ephel D�,FAC
+Orodruin,Orodruin,LOC
+Mount Doom,Mount Doom,LOC
+Narchost,Narchost,GPE
+Carchost,Carchost,GPE
+Ringwraith,Ringwraith,ORG
+Power,Power,ORG
+Watchers,Watchers,ORG
+Moon,Moon,LOC
+Nob,Nob,ORG
+Lugb,Lugb,GPE
+Elven,Elven,ORG
+Bag End,Bag End,LOC
+Fiery Mountain,Fiery Mountain,FAC
+Moria,Moria,GPE
+Phial,Phial,ORG
+Morgul Vale,Morgul Vale,GPE
+Ungoliant,Ungoliant,ORG
+Emyn Muil,Emyn Muil,ORG
+Ambar,Ambar,LOC
+Steward,Steward,ORG
+Warden,Warden,ORG
+Lords,Lords,ORG
+City,City,LOC
+N�,N�,ORG
+Anduin,Anduin,GPE
+Cair Andros,Cair Andros,GPE
+Cormallen,Cormallen,GPE
+Min-Rimmon,Min-Rimmon,GPE
+Lebennin,Lebennin,ORG
+Ioreth,Ioreth,ORG
+Imloth Melui,Imloth Melui,ORG
+Mithrandir,Mithrandir,LOC
+Citadel,Citadel,ORG
+Elessar,Elessar,ORG
+Valandil,Valandil,GPE
+Isildur,Isildur,ORG
+Rath D�,Rath D�,ORG
+Sinome,Sinome,ORG
+Valar,Valar,NORP
+Wood,Wood,ORG
+Harad,Harad,ORG
+Lake N,Lake N,LOC
+Beregond,Beregond,LOC
+Hallows,Hallows,NORP
+Company,Company,ORG
+Pelennor,Pelennor,ORG
+Companions,Companions,ORG
+Rauros,Rauros,LOC
+Nimloth,Nimloth,ORG
+Elrohir,Elrohir,ORG
+Elladan,Elladan,ORG
+Celeborn,Celeborn,ORG
+Evenstar,Evenstar,ORG
+Tooks,Tooks,ORG
+Tuckborough,Tuckborough,GPE
+Untidy,Untidy,ORG
+Troll,Troll,ORG
+Dwarf,Dwarf,ORG
+Bear,Bear,ORG
+Big People,Big People,ORG
+Laurelind,Laurelind,GPE
+Neldoreth,Neldoreth,GPE
+Taur-,Taur-,GPE
+Tauremorna,Tauremorna,NORP
+Wellinghall,Wellinghall,ORG
+Hobbiton,Hobbiton,LOC
+Bombadil,Bombadil,GPE
+Mines,Mines,ORG
+Caras Galadhon,Caras Galadhon,ORG
+Wilderland,Wilderland,ORG
+Angrenost,Angrenost,ORG
+Isengarders,Isengarders,ORG
+Fladrif,Fladrif,ORG
+Leaflock,Leaflock,ORG
+Skinbark,Skinbark,ORG
+Wandlimb,Wandlimb,ORG
+Great River,Great River,LOC
+Earth,Earth,LOC
+Lassemista,Lassemista,ORG
+Amon D�n,Amon D�n,GPE
+Eilenach,Eilenach,GPE
+Nardol,Nardol,GPE
+Belfalas,Belfalas,GPE
+Courage,Courage,ORG
+Stormcrow,Stormcrow,ORG
+Rammas,Rammas,ORG
+Lossarnach,Lossarnach,ORG
+Ered Nimrais,Ered Nimrais,ORG
+Ecthelion,Ecthelion,ORG
+Argonath,Argonath,GPE
+Mardil,Mardil,GPE
+Sharp,Sharp,ORG
+Baranor,Baranor,GPE
+Tumladen,Tumladen,GPE
+Inland Sea,Inland Sea,LOC
+Speech,Speech,ORG
+Ernil i,Ernil i,ORG
+Bergil,Bergil,GPE
+Dervorin,Dervorin,NORP
+Derufin,Derufin,GPE
+Anfalas,Anfalas,ORG
+Lamedon,Lamedon,ORG
+Ethir,Ethir,ORG
+Hirluin,Hirluin,ORG
+Woses,Woses,ORG
+Mundburg,Mundburg,GPE
+Hirgon,Hirgon,GPE
+Red Arrow,Red Arrow,ORG
+Wold,Wold,ORG
+Foes,Foes,ORG
+Snowmane,Snowmane,LOC
+Orom,Orom,ORG
+Anborn,Anborn,GPE
+Plain,Plain,LOC
+Imladris,Imladris,GPE
+Marshes,Marshes,LOC
+Drogo,Drogo,ORG
+Mablung,Mablung,ORG
+Damrod,Damrod,GPE
+Hen,Hen,ORG
+Caradhras,Caradhras,GPE
+Balrog,Balrog,ORG
+Field,Field,LOC
+Calenardhon,Calenardhon,ORG
+Hador,Hador,ORG
+Perilously,Perilously,NORP
+Nice,Nice,GPE
+Ancalagon,Ancalagon,ORG
+Blue,Blue,ORG
+Haven,Haven,GPE
+The Dark Tower,The Dark Tower,FAC
+Bywater,Bywater,GPE
+Halfast,Halfast,ORG
+Eregion,Eregion,ORG
+Bolgers,Bolgers,ORG
+Hornblowers,Hornblowers,ORG
+Bracegirdles,Bracegirdles,GPE
+Bagginses,Bagginses,ORG
+Stoors,Stoors,ORG
+Esgaroth,Esgaroth,GPE
+Underhill,Underhill,ORG
+Parth Galen,Parth Galen,FAC
+Hasufel,Hasufel,GPE
+Burg,Burg,FAC
+Huorn,Huorn,GPE
+Rangers,Rangers,ORG
+Arvedui,Arvedui,LOC
+Fornost,Fornost,GPE
+Erech,Erech,NORP
+Door,Door,ORG
+Harrowdale,Harrowdale,ORG
+Dwimorberg,Dwimorberg,GPE
+Arod,Arod,GPE
+Tarlang,Tarlang,GPE
+Calembel,Calembel,ORG
+Causeway,Causeway,FAC
+Marish,Marish,ORG
+Nimrodel,Nimrodel,GPE
+Grond,Grond,GPE
+Windfola,Windfola,ORG
+Barrow,Barrow,ORG
+Variags,Variags,GPE
+Far Harad,Far Harad,ORG
+Corsairs,Corsairs,ORG
+White Horse,White Horse,ORG
+Narsil,Narsil,ORG
+Thengling,Thengling,GPE
+Herefara,Herefara,GPE
+Herubrand,Herubrand,GPE
+Arnach,Arnach,ORG
+Tombs,Tombs,FAC
+Linhir,Linhir,LOC
+Angbor,Angbor,ORG
+Celos,Celos,ORG
+Dead Men,Dead Men,ORG
+Erebor,Erebor,ORG
+Healers,Healers,ORG
+Morannon,Morannon,GPE
+Ered Lithui,Ered Lithui,ORG
+The Land,The Land,ORG
+Isenmouthe,Isenmouthe,GPE
+Ashen Mountains,Ashen Mountains,LOC
+Durthang,Durthang,GPE
+Windlord,Windlord,ORG
+Quest,Quest,ORG
+Zirak,Zirak,GPE
+Naur,Naur,ORG
+Pheriain,Pheriain,ORG
+Berhael,Berhael,GPE
+Conin,Conin,ORG
+Bree,Bree,GPE
+Shore,Shore,LOC
+Lost Isle,Lost Isle,GPE
+Oliphaunt,Oliphaunt,ORG
+Galdor,Galdor,ORG
+Thranduil,Thranduil,ORG
+Celebrimbor,Celebrimbor,ORG
+Dior,Dior,ORG
+Ohtar,Ohtar,LOC
+Firstborn,Firstborn,ORG
+Lake Evendim,Lake Evendim,FAC
+Downs,Downs,LOC
+Travellers,Travellers,ORG
+Necromancer,Necromancer,ORG
+Radagast,Radagast,ORG
+Rhosgobel,Rhosgobel,LOC
+Riddermark,Riddermark,ORG
+Buckland,Buckland,GPE
+Crickhollow,Crickhollow,ORG
+Barliman,Barliman,ORG
+Weathertop,Weathertop,ORG
+Hoarwell,Hoarwell,ORG
+Iarwain,Iarwain,FAC
+Orald,Orald,NORP
+Tharbad,Tharbad,ORG
+Dimrill,Dimrill,GPE
+Silverlode,Silverlode,ORG
+Free Peoples,Free Peoples,ORG
+Hollin,Hollin,GPE
+Redhorn,Redhorn,GPE
+Celebdil,Celebdil,GPE
+Fanuidhol,Fanuidhol,GPE
+Mirror,Mirror,ORG
+Kibil-n,Kibil-n,GPE
+Bridge,Bridge,FAC
+Galadhrim,Galadhrim,ORG
+Mellyrn,Mellyrn,ORG
+Haldir,Haldir,GPE
+Orophin,Orophin,ORG
+Naith,Naith,NORP
+Egladil,Egladil,GPE
+Nen Hithoel,Nen Hithoel,ORG
+Beorn,Beorn,ORG
+Wetwang,Wetwang,GPE
+Noman,Noman,NORP
+Varda,Varda,ORG
+Mount Everwhite,Mount Everwhite,ORG
+Rapids,Rapids,GPE
+Giants,Giants,ORG
+Lhaw,Lhaw,ORG
+Bardings,Bardings,ORG
+Mearas,Mearas,ORG
+Great Orcs,Great Orcs,FAC
+The Taming,The Taming,ORG
+Battle Plain,Battle Plain,LOC
+Ninnyhammers,Ninnyhammers,ORG
+Tighfield,Tighfield,ORG
+Nassty,Nassty,ORG
+Slinker,Slinker,ORG
+Overlord,Overlord,FAC
+Swertings,Swertings,GPE
+Bagshot Row,Bagshot Row,LOC
+Wraiths,Wraiths,NORP
+Foolish,Foolish,NORP
+Angband,Angband,ORG
+Ferny,Ferny,GPE
+Fatty Lumpkin,Fatty Lumpkin,ORG
+Staddle,Staddle,ORG
+Stick,Stick,FAC
+Loudwater,Loudwater,LOC
+Barahir,Barahir,LOC
+Thingol,Thingol,ORG
+Silmarils,Silmarils,ORG
+Third Deep,Third Deep,LOC
+Rams,Rams,ORG
+Appledore,Appledore,GPE
+Barley,Barley,ORG
+Pony,Pony,ORG
+Heathertoes,Heathertoes,GPE
+Goatleaf,Goatleaf,GPE
+Norbury,Norbury,GPE
+Curiosity,Curiosity,ORG
+Lotho,Lotho,ORG
+Outsiders,Outsiders,ORG
+The Inn,The Inn,ORG
+THE PRANCING PONY,THE PRANCING PONY,ORG
+Thistlewool,Thistlewool,GPE
+Mugworts,Mugworts,ORG
+Longholes,Longholes,GPE
+Envinyatar,Envinyatar,GPE
+Telcontar,Telcontar,ORG
+Valinorean,Valinorean,NORP
+Merethrond,Merethrond,GPE
+The Golden Hall,The Golden Hall,FAC
+Brego,Brego,ORG
+Gram,Gram,ORG
+Folcwine,Folcwine,NORP
+Holdwine,Holdwine,NORP
+Smaug,Smaug,ORG
+Dusst,Dusst,NORP
+BRACEGIRDLE,BRACEGIRDLE,ORG
+Sackville,Sackville,GPE
+Gorbadoc,Gorbadoc,ORG
+Chubb,Chubb,ORG
+Burrowses,Burrowses,GPE
+Brockhouses,Brockhouses,GPE
+Otho,Otho,ORG
+Springle,Springle,NORP
+DORA,DORA,ORG
+SACKVILLE,SACKVILLE,ORG
+BREE,BREE,GPE
+SHIRE,SHIRE,ORG
+PS,PS,ORG
+PPS,PPS,ORG
+Eriador,Eriador,ORG
+Frogmorton,Frogmorton,ORG
+Bribing Guards,Bribing Guards,ORG
+Lockholes,Lockholes,GPE
+Quick Post,Quick Post,ORG
+Whitfurrows,Whitfurrows,ORG
+Pool Side,Pool Side,FAC
+Waymeet,Waymeet,FAC
+Thain,Thain,GPE
+Tookland,Tookland,ORG
+Cottons,Cottons,ORG
+The Old Grange,The Old Grange,ORG
+Hardbottle,Hardbottle,GPE
+Battle Gardens,Battle Gardens,FAC
+Better Smials,Better Smials,ORG
+New Row,New Row,ORG
+Harvest,Harvest,ORG
+Elanor,Elanor,ORG
+Stock,Stock,ORG
+Vilya,Vilya,LOC
+Narya,Narya,GPE
+Bucklebury,Bucklebury,ORG
+Ferry,Ferry,FAC
+Exiles,Exiles,ORG
+The Wandering Companies,The Wandering Companies,ORG
+Haysend,Haysend,LOC
+Withywindle,Withywindle,ORG
+Hedge,Hedge,ORG
+Budgeford,Budgeford,ORG
+Wargs,Wargs,FAC
+Bandobras,Bandobras,ORG
+Sirannon,Sirannon,NORP
+Mellon,Mellon,ORG
+Nargothrond,Nargothrond,GPE
+Unwearied,Unwearied,ORG
+Daeron,Daeron,ORG
+Golden Perch,Golden Perch,ORG
+Bamfurlong,Bamfurlong,GPE
+Bombur,Bombur,ORG
+Norland,Norland,GPE
+Carn D�m,Carn D�m,ORG
+Swish,Swish,NORP
+The Withywindle,The Withywindle,LOC
+Wilderness,Wilderness,LOC
+Starkhorn,Starkhorn,NORP
+Firienfeld,Firienfeld,LOC
+Irensaga,Irensaga,ORG
+Underharrow,Underharrow,FAC
+Folde,Folde,NORP
+Firienwood,Firienwood,LOC
+Lorien,Lorien,GPE
+Undergate,Undergate,ORG
+Hornrock,Hornrock,ORG
+Hammerhand,Hammerhand,ORG
+Forth Helmingas,Forth Helmingas,GPE
+Forgoil,Forgoil,ORG
+Strawheads,Strawheads,GPE
