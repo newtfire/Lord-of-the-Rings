@@ -66,6 +66,7 @@ table, th, td {
     width: 50%;
     margin-right: 15px;
     margin-top: 250px;
+    line-height: 1.6;
 }
 figcaption {
     margin: 25px;
