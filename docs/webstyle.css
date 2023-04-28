@@ -52,6 +52,27 @@ img {
 
 }
 
+table, th, td {
+  border:1px solid black;
+  margin: 50px;
+  width: 50%;
+}
+
+.top-table {
+    background-color: #4f0079;
+    color: lightgrey;
+}
+
+.table-flex {
+    display: flex;
+}
+
+.table-desc {
+    width: 50%;
+    margin-right: 15px;
+    margin-top: 250px;
+    line-height: 1.6;
+}
 figcaption {
     margin: 25px;
     width: 30%;
@@ -106,9 +127,7 @@ li {display: inline-block;}
     font-size: 15px;
 }
 
-.button:hover {
-    border-bottom: #fff;
-}
+.button:hover {border-bottom: #fff;}
 
 .text-box {
     width: 90%;
@@ -120,10 +139,8 @@ li {display: inline-block;}
     text-align: center;    
 }
 
-.text-box h1 {
-    font-size: 46px;
-     
-}
+.text-box h1 {font-size: 46px;}
+
 .text-box p {
     margin: 10px 0 40px;
     font-size: 25px;
