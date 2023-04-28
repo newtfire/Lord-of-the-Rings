@@ -2,6 +2,7 @@ body {
     background-color: tan;
     margin: 0;
     padding: 0;
+    font-family: "Calibri Light", "Calibri", sans-serif;
 }
 
 .header-img {
@@ -16,7 +17,7 @@ h1 {
     padding-left: 25px;
     padding-top: 35px;
     color: white;
-    font-family: "Calibri Light";
+    
 }
 
 nav {
@@ -26,10 +27,29 @@ nav {
     word-spacing: 5px;
     background-image: linear-gradient(gold, #fff);
 }
+nav a:link {
+  text-decoration: none;
+  color:black;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color:red;
+}
+
+nav a:active {
+  text-decoration: none;
+  color:red;
+}
 
 li {display: inline-block;}
 
-button {
+.button {
     border-bottom: solid;
     border-top: none;
     border-right: none;
@@ -39,7 +59,7 @@ button {
     font-size: 15px;
 }
 
-button:hover {
+.button:hover {
     border-bottom: #fff;
 }
 
@@ -82,4 +102,52 @@ button:hover {
     transition: 1s;
 }
 
+.bg-image-home{
+    
+    min-height: 100vh;
+    width: 100%;
+    background-image:
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/background-img/The White Tree.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute
+   ;
+    
+}
 
+.bg-image-network{
+    
+    min-height: 100vh;
+    width: 100%;
+    background-image:
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/background-img/fellowship.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative
+   ;
+    
+}
+.bg-image-analysis{
+    
+    min-height: 80vh;
+    width: 100%;
+    background-image:
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/background-img/the_return_of_the_king.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative
+   ;
+    
+}
+.bg-image-method{
+    
+    min-height: 100vh;
+    width: 100%;
+    background-image:
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/background-img/two_towers.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative
+   ;
+    
+}
