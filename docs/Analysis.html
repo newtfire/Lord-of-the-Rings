@@ -139,10 +139,19 @@
                             </tr>
                         </table>
                         <p class="table-desc">This table shows in detail how Spacy's algorithm attaches it's entities with terms from the Lord of the Rings.
-                        LOC stands for locations, and is pretty self-explanatory. ORG stands for organizations, which we found out that the reason for why ORG is 
+                            LOC stands for <a href="#map">locations</a>, and is pretty self-explanatory. ORG stands for organizations, which we found out that the reason for why ORG is 
                         so prevalent was because it automatically makes connections to characters and famous people in the books as well as groups of people such as "Rohirrim". 
+                        One of the complications of this was that characters are not considered organizations, and would rather be applied to the NER as "PERSON", but it appears we 
+                        were only able to fit 5 NER groups. NORP on the other hand was very accurate, because it distinctly identified Nationalities and religious/political groups. GPE stands for 
+                        Geopolitical Entity, which makes broad connections to areas and regions of Middle-Earth. For example, <a href="#map">"Mirkwood"</a> is a vast forest which stretches through the Rhovanion region of the continent. 
+                            FAC refers to infrastructure like Buildings, airports, highways, and bridges. As you can see, <a href="#map">"Road"</a> is depicted as a FAC.
                         </p>
                     </div>
+                    <h2><a href="#map" id="map">Map of Middle Earth</a></h2>
+                    <figure>
+                        <img src="images/background-img/map_of_middle-earth.gif" alt="" class="normal-width"/>
+                    </figure>
+                    
             </div>
         </div>
     </body>

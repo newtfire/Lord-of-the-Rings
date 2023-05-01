@@ -30,7 +30,6 @@ h1 {
     background-color: tan;
     border-color: black;
     height: auto;
-    width: 92%;
     margin-left: 50px;
     margin-right: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
@@ -43,7 +42,11 @@ h1 {
     padding-bottom: 100px;
 }
 
-h2  {text-align: center;}
+h2 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
 
 img {width: 75%;}
 
@@ -58,14 +61,19 @@ table, th, td {
     color: lightgrey;
 }
 
-.table-flex {
-    display: flex;
+.table-flex {display: flex;}
+
+.normal-width {
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .table-desc {
     width: 50%;
     margin-right: 15px;
-    margin-top: 250px;
+    margin-top: 200px;
     line-height: 1.6;
 }
 figcaption {
@@ -124,25 +132,25 @@ li {display: inline-block;}
 
 .button:hover {border-bottom: #fff;}
 
-.text-box {
+/*  .text-box {
     width: 90%;
     color:  #fff;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;    
-}
+    transform: translate(-50%,-50%);   
+}*/
 
-.text-box h1 {font-size: 46px;}
+.pg-heading h1 {font-size: 46px;}
 
-.text-box p {
-    margin: 10px 0 40px;
+.text-box {
+    text-align: center;
+    padding: 5px;
     font-size: 25px;
     color: #fff;
 }
 
-.click-box{
+.click-box {
     display:inline-block;
     text-decoration: none;
     color: #fff;
@@ -150,9 +158,8 @@ li {display: inline-block;}
     padding: 12px 34px;
     font-size: 15px;
     background: transparent;
-    position:relative;
     cursor: pointer;
-     
+    margin-left: 475px;
 }
 
 .click-box:hover{
