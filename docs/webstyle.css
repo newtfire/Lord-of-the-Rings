@@ -39,7 +39,9 @@ h1 {
     color: white; 
     text-align: center;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    
 }
 
 h2 {
@@ -95,7 +97,7 @@ figure {
 }
 
 nav {
-    height: auto;
+    height: 50px;
     width: 100%;
     max-width: 100%;
     float: left;
@@ -164,73 +166,75 @@ li {display: inline-block;}
     font-size: 15px;
     background: transparent;
     cursor: pointer;
-    margin-left: 475px;
+    margin-left: 540px;
 }
 
 .click-box:hover{
     border:1px solid #f44336;
     transition: 1s;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 }
 
-.bg-image-home{
-    
-    min-height: 100vh;
-    width: 100%;
-    background-image:
-    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/background-img/The White Tree.jpg");
-    background-position: center;
-    background-size: cover;
-    position: absolute
-   ;
-    
-}
+
 
 .bg-image-network{
-    
-    min-height: 100vh;
-    width: 100%;
-    background-image:
-    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/background-img/fellowship.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative
-   ;
-    
+
+background-image: url("images/background-img/fellowship.jpg");
+    margin-top: 55px;
+    height: auto;
 }
+    
+   
 .bg-image-analysis{
-    
-    min-height: 80vh;
-    width: 100%;
-    background-image:
-    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/background-img/the_return_of_the_king.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative
-   ;
-    
+
+background-image: url("images/background-img/the_return_of_the_king.jpg");
+    margin-top: 55px;
+    height: auto;
 }
+  
 .bg-image-method{
     
-    min-height: 100vh;
-    width: 100%;
-    background-image:
-    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/background-img/two_towers.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative
-   ;
-    
+    background-image: url("images/background-img/two_towers.jpg");
+    margin-top: 55px;
+    height: auto;
 }
-=======
-}
->>>>>>> fa2472c01926afce623d594fb3471821ff6fe82c
-=======
-}
+ 
 
 .license {
     width: 100px;
     height: 50px;
+    margin-left: 50px;
+    Padding-bottom: 5px
+    
 }
->>>>>>> 770ba520528d936d295eb0f72efcc308f7b26e8d
+
+.licensedescrip {
+    margin-left: 50px;
+    Padding-top: 5px;
+    Padding-bottom: 30px;
+    
+}
+
+.illustimg {
+    width: 400px;
+    height: 400px;
+ 
+   
+}
+
+.column {
+
+  float: left;
+  width: 28%;
+  padding: 5px;
+  padding-right: 50px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding-right: 100px;
+  
+}
