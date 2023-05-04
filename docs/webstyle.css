@@ -166,7 +166,7 @@ li {display: inline-block;}
     font-size: 15px;
     background: transparent;
     cursor: pointer;
-    margin-left: 540px;
+    margin-left: 41%;
 }
 
 .click-box:hover{
@@ -179,7 +179,7 @@ li {display: inline-block;}
 
 .bg-image-network{
 
-background-image: url("images/background-img/fellowship.jpg");
+    background-image: url("images/background-img/fellowship.jpg");
     margin-top: 55px;
     height: auto;
 }
@@ -187,7 +187,7 @@ background-image: url("images/background-img/fellowship.jpg");
    
 .bg-image-analysis{
 
-background-image: url("images/background-img/the_return_of_the_king.jpg");
+    background-image: url("images/background-img/the_return_of_the_king.jpg");
     margin-top: 55px;
     height: auto;
 }
@@ -217,24 +217,24 @@ background-image: url("images/background-img/the_return_of_the_king.jpg");
 
 .illustimg {
     width: 400px;
-    height: 400px;
- 
-   
+    height: 400px;  
+}
+
+.white-tree {
+    width: 50%;
+    height: 75%;
 }
 
 .column {
-
   float: left;
-  width: 28%;
-  padding: 5px;
-  padding-right: 50px;
+  padding: 20px
 }
 
 
 .row::after {
   content: "";
   clear: both;
-  display: table;
+  display: flex;
   padding-right: 100px;
   
 }
