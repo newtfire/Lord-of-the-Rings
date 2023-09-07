@@ -96,6 +96,24 @@ figure {
     height: 400px;
 }
 
+div.object {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    height: 400px;
+}
+
+object {
+    width: 100%;
+    text-align: center;
+}
+
+p.object {
+    margin-right: 100px;
+    width: 30%;
+    height: auto;
+}
+
 nav {
     height: 50px;
     width: 100%;
@@ -177,8 +195,6 @@ li {display: inline-block;}
     transition: 1s;
 
 }
-
-
 
 .bg-image-network{
 
