@@ -1,12 +1,22 @@
-let x1 = getAttribute('x1')
-let x2 = getAttribute('x2') 
-    
+window.addEventListener('DOMContentLoaded', init, false);
 
-function scrollReveal() {
-    var scrolled = svg.scrollIntoView();
+
+const nlp = ['ORG', 'GPE', 'NORP', 'LOC', 'FAC'];
+const x1 = '0'
+// var x2 = getAttribute('x2')
+
+function init() { 
+    let bars = document.querySelectorAll('g[id]');
     
-    if (scrolled >= x1) {
-        console.log(x2)
+    for (let i="0"; i < nlp.length; i++) {
+        console.log(nlp[i])
+    }
+    
+    for (let i = 0; i < bars.length; i++) {
+    var line  = bars[i].querySelector('line')
+    var x2 = line.getAttribute('x2')
+    console.log(x2)
+    alert(x2);
     }
     
 }
