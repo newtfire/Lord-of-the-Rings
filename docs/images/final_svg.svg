@@ -3,7 +3,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink">
    <script type="text/javascript" xlink:href="interact.js"/>
    <g transform="translate(130, 50)">
-      <g id="ORG">
+      <g id="ORG" class="displayBars">
          <line x1="0"
                y1="50"
                x2="479.686593151479977"
@@ -12,7 +12,7 @@
                stroke-width="20"/>
          <text x="-90" y="50" stroke="black">ORG</text>
       </g>
-      <g id="GPE">
+      <g id="GPE" class="displayBars">
          <line x1="0"
                y1="100"
                x2="236.796285548461985"
@@ -21,7 +21,7 @@
                stroke-width="20"/>
          <text x="-90" y="100" stroke="black">GPE</text>
       </g>
-      <g id="NORP">
+      <g id="NORP" class="displayBars">
          <line x1="0"
                y1="150"
                x2="14.219384793964016"
@@ -30,7 +30,7 @@
                stroke-width="20"/>
          <text x="-90" y="150" stroke="black">NORP</text>
       </g>
-      <g id="LOC">
+      <g id="LOC" class="displayBars">
          <line x1="0"
                y1="200"
                x2="211.404526987811956"
@@ -39,7 +39,7 @@
                stroke-width="20"/>
          <text x="-90" y="200" stroke="black">LOC</text>
       </g>
-      <g id="FAC">
+      <g id="FAC" class="displayBars">
          <line x1="0"
                y1="250"
                x2="57.893209518282066"
