@@ -1,14 +1,25 @@
 window.addEventListener('DOMContentLoaded', init, false);
 
+const text = document.getElementsByClassName('textButton');
+const bars = document.getElementsByClassName('displayBars');
+
 function init(){
-    var textButton = document.querySelector('.textButton')
-    textButton.addEventListener('click', hideShow, false)
+    for (i = 0; i < text.length; i++){
+        text[i].addEventListener('click', Show, false)
+    }
 }
 
-function hideShow(){
-    var bars = document.querySelector('.displayBars')
-    if (bars.style.display == 'none'){
-        bars.style.display='block';
+function Show(){
+    Hide();
+    for (i = 0; i < bars.length; i++){
+        if (bars[i].id.split('-')[1] == this.id.split('-')[1]){
+            bars[i].style.display="block";        
+        }
     }
-    else {bars.style.display='none'}
+}
+
+function Hide(){
+    for (i = 0; i < bars.length; i++){
+        bars[i].style.display="none"; 
+    }
 }
