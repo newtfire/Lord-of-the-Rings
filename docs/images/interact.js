@@ -11,13 +11,21 @@ function init(){
 
 function Show(){
     Hide();
-    for (i = 0; i < bars.length; i++){
-        if (bars[i].id.split('-')[1] == this.id.split('-')[1]){
-            bars[i].style.display="block";        
-        }
+    var x2 = document.bars.getAttribute('x2');
+    var width = 1;
+    var identity = setInterval(scene, 10);
+    function scene() {
+        for (i = 0; i < bars.length; i++){
+    	  if (width[i] == x2){
+    	      clearInterval(identity);
+    	} else {
+    	      width++;
+    	      bars.style.width = width + '%';
+    	  }
     }
+  }
 }
-
+    
 function Hide(){
     for (i = 0; i < bars.length; i++){
         bars[i].style.display="none"; 
