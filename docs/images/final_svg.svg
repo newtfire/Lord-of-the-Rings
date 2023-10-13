@@ -9,7 +9,9 @@
                x2="479.686593151479977"
                y2="50"
                stroke="lightgreen"
-               stroke-width="20" style="display: none;" class="displayBars" id="l-ORG"/>
+               stroke-width="20" style="display: none;" class="displayBars" id="l-ORG">
+            <animate attributeName="width" from="0" to="479.686593151479977" dur="2s"></animate>
+         </line>
          <text x="-90" y="50" style="stroke: black;" class="textButton" id="t-ORG">ORG</text>
       </g>
       <g id="GPE">
@@ -18,7 +20,9 @@
                x2="236.796285548461985"
                y2="100"
                stroke="orange"
-               stroke-width="20" style="display: none;" class="displayBars" id="l-GPE"/>
+               stroke-width="20" style="display: none;" class="displayBars" id="l-GPE">
+            <animate attributeName="width" from="0" to="236.796285548461985" dur="2s"></animate>
+         </line>
          <text x="-90" y="100" style="stroke: black;" class="textButton" id="t-GPE">GPE</text>
       </g>
       <g id="NORP">
@@ -27,7 +31,9 @@
                x2="14.219384793964016"
                y2="150"
                stroke="darkblue"
-               stroke-width="20" style="display: none;" class="displayBars" id="l-NORP"/>
+               stroke-width="20" style="display: none;" class="displayBars" id="l-NORP">
+            <animate attributeName="width" from="0" to="14.219384793964016" dur="2s"></animate>
+         </line>
          <text x="-90" y="150" style="stroke: black;" class="textButton" id="t-NORP">NORP</text>
       </g>
       <g id="LOC">
@@ -36,7 +42,9 @@
                x2="211.404526987811956"
                y2="200"
                stroke="aqua"
-               stroke-width="20" style="display: none;" class="displayBars" id="l-LOC"/>
+               stroke-width="20" style="display: none;" class="displayBars" id="l-LOC">
+            <animate attributeName="width" from="0" to="211.404526987811956" dur="2s"></animate>
+         </line>
          <text x="-90" y="200" style="stroke: black;" class="textButton" id="t-LOC">LOC</text>
       </g>
       <g id="FAC">
@@ -45,7 +53,9 @@
                x2="57.893209518282066"
                y2="250"
                stroke="lightyellow"
-               stroke-width="20" style="display: none;" class="displayBars" id="l-FAC"/>
+               stroke-width="20" style="display: none;" class="displayBars" id="l-FAC">
+            <animate attributeName="width" from="0" to="57.893209518282066" dur="2s"></animate>
+         </line>
          <text x="-90" y="250" style="stroke: black;" class="textButton" id="t-FAC">FAC</text>
       </g>
       <line x1="0"

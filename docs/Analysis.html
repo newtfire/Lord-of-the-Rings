@@ -3,6 +3,7 @@
     <head>
         <title>Analysis</title>
         <link rel="stylesheet" type="text/css" href="webstyle.css"/>
+        <script src="img-map.js"></script>
     </head>
     <body>
         <div class="header-img">
@@ -59,7 +60,7 @@
                                 <th>ORG</th>
                             </tr>
                             <tr>
-                                <th>Fanghorn</th>
+                                <th><a href="#Fanghorn">Fanghorn</a></th>
                                 <th>Fanghorn</th>
                                 <th>GPE</th>
                             </tr>
@@ -69,7 +70,7 @@
                                 <th>ORG</th>
                             </tr>
                             <tr>
-                                <th>Mirkwood</th>
+                                <th><a href="#Mirkwood">Mirkwood</a></th>
                                 <th>Mirkwood</th>
                                 <th>GPE</th>
                             </tr>
@@ -84,7 +85,7 @@
                                 <th>FAC</th>
                             </tr>
                             <tr>
-                                <th>Dunland</th>
+                                <th><a href="#Dunland" class="">Dunland</a></th>
                                 <th>Dunland</th>
                                 <th>GPE</th>
                             </tr>
@@ -129,12 +130,12 @@
                                 <th>ORG</th>
                             </tr>
                             <tr>
-                                <th>Weathertop</th>
+                                <th><a href="#Weathertop">Weathertop</a></th>
                                 <th>Weathertop</th>
                                 <th>ORG</th>
                             </tr>
                             <tr>
-                                <th>Bree</th>
+                                <th><a href="#Bree">Bree</a></th>
                                 <th>Bree</th>
                                 <th>GPE</th>
                             </tr>
@@ -148,18 +149,20 @@
                             FAC refers to infrastructure like Buildings, airports, highways, and bridges. As you can see, <a href="#map">"Road"</a> is depicted as a FAC.
                         </p>
                     </div>
-                    <h2><a href="#map" id="map">Map of Middle Earth</a></h2>
-                    <figure>
-                    <img src="images/background-img/map_of_middle-earth.gif" alt="" class="normal-width" usemap="#image-map"/>
-                        
-                        <map name="image-map">
-                            <area shape="circle"
-                                  coords="2025, 739, 12"
-                                  alt="Mirkwood"
-                                  href="images/background-img/map_of_middle-earth.gif">
-                        </map>
-                    </figure>
-                    
+                    <h2><a href="map" id="map">Map of Middle Earth</a></h2>
+                    <div id="container">
+                        <div id="image-container">
+                            <img src="images/Image-map/map_of_middle-earth.gif" alt="" usemap="#image_map" class="normal-width">
+                            <map name="image_map">
+                                <area alt="Fanghorn" title="Fanghorn" href="img-map" id="Fanghorn" coords="1422,1388 1569,1379 1613,1353 1621,1284 1604,1241 1604,1224 1569,1219 1513,1202 1483,1189 1440,1185 1448,1206 1470,1228 1487,1249 1457,1254 1444,1262 1466,1288 1444,1293 1427,1319 1409,1345 1396,1366 1422,1388 " shape="polygon">
+                                <area alt="Mirkwood" title="Mirkwood" href="img-map" id="Mirkwood" coords="1780,520 1806,576 1832,611 1827,633 1819,663 1845,749 1879,849 1892,896 1897,918 1914,948 1888,957 1884,970 1793,1056 1788,1087 1879,1151 1957,1169 2018,1151 2074,1121 2134,1078 2152,1043 2156,1022 2182,987 2100,957 2052,961 2039,927 2048,883 2078,870 2108,879 2147,870 2147,849 2134,836 2130,793 2130,780 2160,723 2165,685 2178,650 2152,607 2139,551 2130,529 2108,516 2052,447 2043,391 1909,373 1840,386 1775,425 1767,455 1780,520 " shape="polygon">
+                                <area alt="Bree" title="Bree" href="img-map" id="Bree" coords="956,704,56" shape="circle">
+                                <area alt="Weathertop" title="Weathertop" href="img-map" id="Weathertop" coords="1109,689,54" shape="circle">
+                                <area alt="Dunland" title="Dunland" href="img-map" id="Dunland" coords="1383,1137 1284,1167 1211,1262 1202,1366 1236,1444 1267,1470 1314,1479 1358,1466 1401,1435 1414,1405 1383,1362 1405,1327 1435,1284 1427,1236 1440,1224 1379,1137 " shape="polygon">
+                            </map>
+                            
+                        </div>
+                    </div>                    
             </div>
         </div>
     </body>

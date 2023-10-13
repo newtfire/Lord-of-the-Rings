@@ -71,10 +71,9 @@ table, th, td {
 .table-flex {display: flex;}
 
 .normal-width {
-    width: 50%;
+    width: 100%;
     height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 .table-desc {
@@ -265,3 +264,4 @@ i {
 }
 
 .align-i {text-align: left;}
+
