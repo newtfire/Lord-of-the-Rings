@@ -23,7 +23,7 @@ for (i = 0; i < text.length; i++){
    let animatts = {
     attributeName: "x2",
     fill: "freeze",
-    from: "-10",
+    from: "0",
     to: "0",
     dur: "20s" 
     };
