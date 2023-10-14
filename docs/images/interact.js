@@ -9,13 +9,15 @@ const bars = document.getElementsByClassName('displayBars');
  
 window.addEventListener('DOMContentLoaded', init, false);
 
+
 function init(){
 for (i = 0; i < text.length; i++){
         text[i].addEventListener('click', Show, false);        
     }
     for (i = 0; i < bars.length; i++) {
     //  ebb: This does not work: let animate = document.createElement("animate"); 
-  /*  You need to add the namespace for <animate> to function as an SVG element*/
+  /* You do actually need to add the SVG namespace for <animate> to function as an SVG element. 
+   * Also, apparently you need to create these things after the window.onload event. */
    let animate = document.createElementNS("http://www.w3.org/2000/svg", "animate");
 
 //ebb: The structure of the animatts variable here is called an Object. 
