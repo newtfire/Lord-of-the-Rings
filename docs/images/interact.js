@@ -3,8 +3,6 @@ const bars = document.getElementsByClassName('displayBars');
 /* 2023-10-13 ebb and ns: Trying to add an SVG animate element on click of the text element in a <g> */
 /* Just for fun and learning, we are going to create an animate element from scratch
  * inside each <line> element in the SVG. 
- * HOWEVER, it's probably better for the effect we want to have the <animate> element
- * present already and set it with the x2 = 0 from the start. 
  *  */
  
 window.addEventListener('DOMContentLoaded', init, false);
