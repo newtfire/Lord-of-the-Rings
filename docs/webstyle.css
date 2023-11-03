@@ -1,5 +1,5 @@
 body {
-    background-color: tan;
+    background-color: lightgrey;
     margin: 0;
     padding: 0;
     font-family: "Calibri", sans-serif;
@@ -27,7 +27,7 @@ h1 {
 
 .block {
     display: block;
-    background-color: tan;
+    background-color: lightgrey;
     border-color: black;
     height: auto;
     margin-left: 50px;
@@ -50,6 +50,11 @@ h2 {
     padding: 10px;
 }
 
+#spacy-desc {
+    text-align: left;
+    margin-left: 30px;
+}
+
 a {text-align: center;}
 
 img {
@@ -57,10 +62,16 @@ img {
     text-align: center;
 }
 
-table, th, td {
-  border:1px solid black;
+table {
+  border: 1px solid black;
   margin: 50px;
-  width: 50%;
+  width: 20%;
+    transition: opacity 0.3s, ease-in-out;
+    opacity: 0.3;
+}
+
+table:hover {
+    opacity: 1;
 }
 
 .top-table {
@@ -77,9 +88,9 @@ table, th, td {
 }
 
 .table-desc {
-    width: 50%;
-    margin-right: 15px;
-    margin-top: 200px;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
     line-height: 1.6;
 }
 figcaption {
@@ -180,23 +191,25 @@ li {display: inline-block;}
 .click-box {
     display:inline-block;
     text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
+    color: black;
+    border: 1px solid black;
     padding: 12px 34px;
     font-size: 15px;
     background: transparent;
-    cursor: pointer;
     margin-left: 41%;
 }
 
 .click-box:hover{
     border:1px solid #f44336;
-    transition: 1s;
+    transition: 0.5s;
 
 }
 
-.bg-image-network{
+u {
+    color: Red;
+}
 
+.bg-image-network{
     background-image: url("images/background-img/fellowship.jpg");
     margin-top: 55px;
     height: auto;

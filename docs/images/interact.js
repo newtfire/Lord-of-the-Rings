@@ -25,7 +25,7 @@ for (i = 0; i < text.length; i++){
     fill: "freeze",
     from: "0",
     to: "0",
-    dur: "20s" 
+    dur: "10s" 
     };
     
     setAttributes(animate, animatts);
@@ -83,7 +83,7 @@ function Show(){
 function Hide(){
     for (i = 0; i < bars.length; i++){
        /* bars[i].style.display="none"; */
-       bars[i].querySelector('animate').setAttribute('to', '0');
+       bars[i].querySelector('animate').setAttribute('to', length);
     }
 }
 
