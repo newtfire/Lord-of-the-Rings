@@ -4,7 +4,7 @@ const bars = document.getElementsByClassName('displayBars');
 /* Just for fun and learning, we are going to create an animate element from scratch
  * inside each <line> element in the SVG. 
  *  */
- 
+
 window.addEventListener('DOMContentLoaded', init, false);
 
 
@@ -22,10 +22,9 @@ for (i = 0; i < text.length; i++){
 // Pulling data from it is a little tricky. It involves "destructuring" the Object to get it at the key, values as little arrays.
    let animatts = {
     attributeName: "x2",
-    fill: "freeze",
     from: "0",
     to: "0",
-    dur: "10s" 
+    dur: "10s",
     };
     
     setAttributes(animate, animatts);
@@ -73,17 +72,16 @@ function Show(){
         if (bars[i].id.split('-')[1] == this.id.split('-')[1]){
             
            var length = bars[i].getAttribute('x2');
-           console.log(length);
-           bars[i].querySelector('animate').setAttribute('to', length);    
+           bars[i].querySelector('animate').setAttribute('to', length);
         } 
-        
+
     } 
 }
 
 function Hide(){
     for (i = 0; i < bars.length; i++){
+        var length = bars[i].getAttribute('x2');
        /* bars[i].style.display="none"; */
        bars[i].querySelector('animate').setAttribute('to', length);
     }
 }
-

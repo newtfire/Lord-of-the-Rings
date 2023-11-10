@@ -12,7 +12,7 @@
                stroke-width="20" class="displayBars" id="l-ORG">
         <!--    <animate attributeName="x2" fill="freeze" from="0" to="479.686593151479977" dur="2s"></animate>-->
          </line>
-         <text x="-90" y="50" style="stroke: black;" class="textButton" id="t-ORG">ORG</text>
+         <text x="-90" y="50" style="stroke: black;" class="textButton" id="t-ORG" font-family="Calibri">ORG</text>
       </g>
       <g id="GPE">
          <line x1="0"
@@ -23,7 +23,7 @@
                stroke-width="20" class="displayBars" id="l-GPE">
           <!--  <animate attributeName="x2" from="0" to="236.796285548461985" dur="10s"></animate>-->
          </line>
-         <text x="-90" y="100" style="stroke: black;" class="textButton" id="t-GPE">GPE</text>
+         <text x="-90" y="100" style="stroke: black;" class="textButton" id="t-GPE" font-family="Calibri">GPE</text>
       </g>
       <g id="NORP">
          <line x1="0"
@@ -34,7 +34,7 @@
                stroke-width="20" class="displayBars" id="l-NORP">
           <!--  <animate attributeName="width" from="0" to="14.219384793964016" dur="2s"></animate>-->
          </line>
-         <text x="-90" y="150" style="stroke: black;" class="textButton" id="t-NORP">NORP</text>
+         <text x="-90" y="150" style="stroke: black;" class="textButton" id="t-NORP" font-family="Calibri">NORP</text>
       </g>
       <g id="LOC">
          <line x1="0"
@@ -45,7 +45,7 @@
                stroke-width="20" class="displayBars" id="l-LOC">
          <!--   <animate attributeName="width" from="0" to="211.404526987811956" dur="2s"></animate>-->
          </line>
-         <text x="-90" y="200" style="stroke: black;" class="textButton" id="t-LOC">LOC</text>
+         <text x="-90" y="200" style="stroke: black;" class="textButton" id="t-LOC" font-family="Calibri">LOC</text>
       </g>
       <g id="FAC">
          <line x1="0"
@@ -56,7 +56,7 @@
                stroke-width="20" class="displayBars" id="l-FAC">
            <!-- <animate attributeName="width" from="0" to="57.893209518282066" dur="2s"></animate>-->
          </line>
-         <text x="-90" y="250" style="stroke: black;" class="textButton" id="t-FAC">FAC</text>
+         <text x="-90" y="250" style="stroke: black;" class="textButton" id="t-FAC" font-family="Calibri">FAC</text>
       </g>
       <line x1="0"
             y1="300"
@@ -79,7 +79,7 @@
                y2="300"
                stroke="black"
                stroke-width="1"/>
-         <text style="text-anchor: middle" x="100" y="350">10% </text>
+         <text style="text-anchor: middle" x="100" y="350">10%</text>
       </g>
       <g>
          <line x1="200"
@@ -88,7 +88,7 @@
                y2="300"
                stroke="black"
                stroke-width="1"/>
-         <text style="text-anchor: middle" x="200" y="350">20% </text>
+         <text style="text-anchor: middle" x="200" y="350">20%</text>
       </g>
       <g>
          <line x1="300"
@@ -97,7 +97,7 @@
                y2="300"
                stroke="black"
                stroke-width="1"/>
-         <text style="text-anchor: middle" x="300" y="350">30% </text>
+         <text style="text-anchor: middle" x="300" y="350">30%</text>
       </g>
       <g>
          <line x1="400"
@@ -106,7 +106,7 @@
                y2="300"
                stroke="black"
                stroke-width="1"/>
-         <text style="text-anchor: middle" x="400" y="350">40% </text>
+         <text style="text-anchor: middle" x="400" y="350">40%</text>
       </g>
       <g>
          <line x1="500"
@@ -115,7 +115,7 @@
                y2="300"
                stroke="black"
                stroke-width="1"/>
-         <text style="text-anchor: middle" x="500" y="350">50% </text>
+         <text style="text-anchor: middle" x="500" y="350">50%</text>
       </g>
    </g>
    
