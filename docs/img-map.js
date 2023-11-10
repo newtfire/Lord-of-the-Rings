@@ -1,9 +1,9 @@
 window.addEventListener('DOMContentLoaded', init, false);
 
-const table_row = document.getElementsByTagName('tr');
-const ellipse = document.querySelectorAll("#Dunland, #Weathertop, #Bree, #Aglarond, #Dale, #Dwarves-Erebor, #Elf-Rivendell, #Orc-Gundabad, #Orc-Isengard, #Elf-Woodland, #Elf-Mithlond");
-const path = document.querySelectorAll("#Mirkwood, #Fanghorn, #West, #Rohan, #Dwarves-Iron-Hills, #Wraiths, #Orc-Mordor, #Dwarves-Blue-Mountains, #Elf-Lothlorien");
-
+let table_row = document.getElementsByTagName('tr');
+let ellipse = document.querySelectorAll("#Dunland, #Weathertop, #Bree, #Aglarond, #Dale, #Dwarves-Erebor, #Elf-Rivendell, #Orc-Gundabad, #Orc-Isengard, #Elf-Woodland, #Elf-Mithlond");
+let path = document.querySelectorAll("#Mirkwood, #Fanghorn, #West, #Rohan, #Dwarves-Iron-Hills, #Wraiths, #Orc-Mordor, #Dwarves-Blue-Mountains, #Elf-Lothlorien");
+let svgs = [ellipse, path]
 function init() {
     for (let i = 0; i < table_row.length; i++) {
         table_row[i].addEventListener('click', fillEllipse, false);
@@ -12,10 +12,20 @@ function init() {
 }
 
 function fillEllipse() {
-    let clickClasses = this.table_row.class
-    const subClass = clickClasses.split('-')[0];
+    shutOff()
+    let clickClasses = this.className
+    console.log('what is clickClasses? ' + clickClasses)
+    let separateClass = clickClasses.toString().split(' ');
+    console.log('separateClass is this: ' + separateClass)
 
-    document.subClass.
+    for (i = 0; i < separateClass.length; i++){
+         let separateHash = separateClass[i].toString().split('#')[1];
+         let matchSVG = document.getElementById(separateHash);
+         console.log('matchSVG is: ' + matchSVG);
+         matchSVG.style.fill = "blue";
+
+    }
+
     /* ebb: You now need to 1) split() the class on spaces (look up how), and store the result in a new variable.
     /* This new variable stores a sequence of values.
     * THEN, loop through the new variable's sequence of values.
@@ -23,11 +33,14 @@ function fillEllipse() {
     after you cut off the # (probably with split() function again).
     In that step you also trigger the fill event!
      */
-    for (let i = 0; i < ellipse.length; i++) {
-        if (ellipse[i].fillStyle == "none"){
-            ellipse[i].fillStyle = "blue"
+
+}
+function shutOff() {
+    for (let i = 0; i < svgs.length; i++) {
+        if (svgs[i].fillStyle == "blue"){
+            svgs[i].fillStyle = "none"
         } else {
-            ellipse[i].style.fill = "none"
+            svgs[i].style.fill = "blue"
         }
     }
 }
