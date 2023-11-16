@@ -22,7 +22,7 @@ function fillEllipse() {
          let separateHash = separateClass[i].toString().split('#')[1];
          let matchSVG = document.getElementById(separateHash);
          console.log('matchSVG is: ' + matchSVG);
-         matchSVG.style.fill = "blue";
+         matchSVG.style.fill  = "blue";
 
     }
 
@@ -31,16 +31,16 @@ function fillEllipse() {
     * THEN, loop through the new variable's sequence of values.
     In your loop, you find the SVG element whose id == the value you're looping on
     after you cut off the # (probably with split() function again).
-    In that step you also trigger the fill event!
+    In that step you also triggefillStyle event!
      */
 
 }
 function shutOff() {
     for (let i = 0; i < svgs.length; i++) {
-        if (svgs[i].fillStyle == "blue"){
-            svgs[i].fillStyle = "none"
+        if (svgs[i].fill  === "none"){
+            svgs[i].fill = "blue"
         } else {
-            svgs[i].style.fill = "blue"
+            svgs[i].fill = "none"
         }
     }
 }
