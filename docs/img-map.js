@@ -22,7 +22,7 @@ function fillEllipse() {
          let separateHash = separateClass[i].toString().split('#')[1];
          let matchSVG = document.getElementById(separateHash);
          console.log('matchSVG is: ' + matchSVG);
-         matchSVG.style.fill  = "blue";
+         matchSVG.style.fill = "blue";
 
     }
 
