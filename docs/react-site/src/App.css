@@ -1,0 +1,279 @@
+body {
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+  font-family: "Calibri", sans-serif;
+}
+
+.header-img {
+  padding-top: 45px;
+  background-image: url("react-site/src/images/background-img/boromir.jpg");
+  height: 100px;
+  width: 100%;
+  max-width: 100%;
+}
+
+h1 {
+  padding-left: 25px;
+  padding-top: 35px;
+  color: white;
+}
+
+.title-img {
+  background-image: url("react-site/src/images/background-img/fellowship.jpg");
+  margin-top: 55px;
+  height: auto;
+}
+
+.block {
+  display: block;
+  background-color: lightgrey;
+  border-color: black;
+  height: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.pg-heading {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  font-weight: bold;
+
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  padding: 10px;
+}
+
+#spacy-desc {
+  text-align: left;
+  margin-left: 30px;
+}
+
+a {text-align: center;}
+
+img {
+  width: 75%;
+  text-align: center;
+}
+
+table {
+  border: 1px solid black;
+  margin: 50px;
+  width: 20%;
+  transition: opacity 0.3s, ease-in-out;
+  opacity: 0.3;
+}
+
+table:hover {
+  opacity: 1;
+}
+
+.top-table {
+  background-color: #4f0079;
+  color: lightgrey;
+}
+
+.table-flex {display: flex;}
+
+.normal-width {
+  width: 100%;
+  height: 100%;
+
+}
+
+.table-desc {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 100px;
+  line-height: 1.6;
+}
+figcaption {
+  margin: 25px;
+  width: 30%;
+  height: auto;
+}
+
+figure {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  height: 400px;
+}
+
+div.object {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  height: 400px;
+}
+
+object {
+  width: 100%;
+  text-align: center;
+}
+
+p.object {
+  margin-right: 100px;
+  width: 30%;
+  height: auto;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  max-width: 100%;
+  float: left;
+  word-spacing: 5px;
+  background-image: linear-gradient(grey, #fff);
+}
+
+nav a:link {
+  text-decoration: none;
+  color:black;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color:red;
+}
+
+nav a:active {
+  text-decoration: none;
+  color:red;
+}
+
+li {display: inline-block;}
+
+.button {
+  border-bottom: solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding: 10px;
+  background: transparent;
+  font-size: 15px;
+}
+
+.button:hover {border-bottom: #fff;}
+
+/*  .text-box {
+    width: 90%;
+    color:  #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}*/
+
+.pg-heading {
+  font-size: 35px;
+  color: #251607;
+}
+
+.text-box {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  color: black;
+}
+
+.click-box {
+  display:inline-block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 12px 34px;
+  font-size: 15px;
+  background: transparent;
+  margin-left: 41%;
+}
+
+.click-box:hover{
+  border:1px solid #f44336;
+  transition: 0.5s;
+
+}
+
+u {
+  color: Red;
+}
+
+.bg-image-network {
+  background-image: url("react-site/src/images/background-img/fellowship.jpg");
+  margin-top: 55px;
+  height: auto;
+}
+
+
+.bg-image-analysis {
+
+  background-image: url("react-site/src/images/background-img/the_return_of_the_king.jpg");
+  margin-top: 55px;
+  height: auto;
+}
+
+.bg-image-method {
+
+  background-image: url("react-site/src/images/background-img/two_towers.jpg");
+  margin-top: 55px;
+  height: auto;
+}
+
+
+.license {
+  width: 100px;
+  height: 40px;
+  margin-left: 50px;
+  Padding-bottom: 5px
+
+}
+
+.licensedescrip {
+  margin-left: 50px;
+  Padding-top: 5px;
+  Padding-bottom: 30px;
+
+}
+
+.illustimg {
+  width: 400px;
+  height: 400px;
+  border: 3px solid;
+}
+
+.white-tree {
+  width: 50%;
+  height: 75%;
+  border: 3px solid;
+}
+
+.column {
+  float: left;
+  padding: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: flex;
+  padding-right: 100px;
+}
+
+i {
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+
+.align-i {text-align: left;}
