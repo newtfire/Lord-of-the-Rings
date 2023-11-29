@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
-import network from './network'
+import boromir from './images/background-img/boromir.jpg';
 import './App.css'
 
 
@@ -53,21 +53,21 @@ function App() {
 
           <div className="row">
             <div className="column">
-              <img className="illustimg" src alt=""/>
+              <img className="illustimg" src={boromir} alt=""/>
                 <i>"Boromir's last Stand"</i>
             </div>
             <div className="column">
-              <img className="illustimg" src="/react-site/src/images/background-img/prancing-pony.jpg" alt=""/>
+              <img className="illustimg" src="./images/background-img/prancing-pony.jpg" alt=""/>
                 <i>"At the sign of the Prancing Pony"</i>
             </div>
           </div>
           <div className="row">
             <div className="column">
-              <img className="illustimg" src="/react-site/src/images/background-img/rosie-and-sam.jpg" alt=""/>
+              <img className="illustimg" src="./images/background-img/rosie-and-sam.jpg" alt=""/>
                 <i>"Sam and Rosie Cotton"</i>
             </div>
             <div className="column">
-              <img className="white-tree" src="/react-site/src/images/background-img/white_tree.jpg" alt=""/>
+              <img className="white-tree" src="./images/background-img/white_tree.jpg" alt=""/>
               <i className="align-i">"The White Tree"</i>
             </div>
           </div>

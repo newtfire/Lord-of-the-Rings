@@ -124,11 +124,23 @@ p.object {
     height: auto;
 }
 
+.quotes {
+    margin-left: 300px;
+    font-style: italic;
+    animation: 2.5s fadeIn;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 nav {
     height: 50px;
     width: 100%;
     max-width: 100%;
     float: left;
+    display: flex;
     word-spacing: 5px;
     background-image: linear-gradient(grey, #fff);
 }

@@ -7,7 +7,7 @@ body {
 
 .header-img {
   padding-top: 45px;
-  background-image: url("react-site/src/images/background-img/boromir.jpg");
+  background-image: url("./images/header_img.jpg");
   height: 100px;
   width: 100%;
   max-width: 100%;
@@ -20,7 +20,7 @@ h1 {
 }
 
 .title-img {
-  background-image: url("react-site/src/images/background-img/fellowship.jpg");
+  background-image: url("./images/background-img/fellowship.jpg");
   margin-top: 55px;
   height: auto;
 }
@@ -210,7 +210,7 @@ u {
 }
 
 .bg-image-network {
-  background-image: url("react-site/src/images/background-img/fellowship.jpg");
+  background-image: url("./images/background-img/fellowship.jpg");
   margin-top: 55px;
   height: auto;
 }
@@ -218,14 +218,14 @@ u {
 
 .bg-image-analysis {
 
-  background-image: url("react-site/src/images/background-img/the_return_of_the_king.jpg");
+  background-image: url("./images/background-img/the_return_of_the_king.jpg");
   margin-top: 55px;
   height: auto;
 }
 
 .bg-image-method {
 
-  background-image: url("react-site/src/images/background-img/two_towers.jpg");
+  background-image: url("./images/background-img/two_towers.jpg");
   margin-top: 55px;
   height: auto;
 }
