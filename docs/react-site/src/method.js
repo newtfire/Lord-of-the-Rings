@@ -11,7 +11,7 @@ const Method = () => {
             <ul>
                 <li><a href="index.js"><span
                     className="button">Home</span></a></li>
-                <li><a href="network.js"><span>
+                <li><a href="network.js"><span
                     className="button">Network</span></a></li>
                 <li><a href="Analysis.html"><span
                     className="button">Analysis</span></a></li>

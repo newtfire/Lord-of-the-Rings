@@ -9,9 +9,9 @@ const Home = () => {
     <nav>
         <ul>
             <li><a href="index.js"><span className="button">Home</span></a></li>
-            <li><a href="network.html"><span className="button">Network</span></a></li>
+            <li><a href="network.js"><span className="button">Network</span></a></li>
             <li><a href="Analysis.html"><span className="button">Analysis</span></a></li>
-            <li><a href="method.html"><span className="button">Methods</span></a></li>
+            <li><a href="method.js"><span className="button">Methods</span></a></li>
         </ul>
         <div className="quotes">
             <p id="line1"></p>
