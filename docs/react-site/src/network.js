@@ -1,6 +1,5 @@
 import React from "react";
-
-const network = () => {
+const Network = () => {
     return (
     <body>
     <div className="header-img">
@@ -48,4 +47,4 @@ const network = () => {
     );
 };
 
-export default network()
+export default Network()

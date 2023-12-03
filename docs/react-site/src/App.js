@@ -1,9 +1,9 @@
 import React from 'react';
-import { Routes, Route } from "react-router-dom";
+import {Router, Routes, Route, Navigate} from "react-router-dom";
 import './App.css'
 import { galleryData } from './images/data'
-import Home from "./index";
-import network from "./network"
+import Home from "./Home";
+import Network from "./network";
 import Method from "./method";
 
 function List({formAction}) {
@@ -13,5 +13,16 @@ function List({formAction}) {
     const mapImages = choice.map(pic =>
     <img key={pic.id} src={pic.src} alt={pic.name}/>
     );
-    return mapImages
-}
+};
+
+function App(){
+  return (
+    <>
+      <Home/>
+    <Method/>
+    <Network/>
+    </>
+    );
+};
+
+export default App;
