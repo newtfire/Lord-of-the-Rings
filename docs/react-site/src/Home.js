@@ -1,5 +1,8 @@
 import React from 'react';
-
+import boromir from './images/background-img/boromir.jpg';
+import Prancing_pony from './images/background-img/prancing-pony.jpg';
+import Sam_and_Rosie from './images/background-img/rosie-and-sam.jpg';
+import White_Tree from './images/background-img/white_tree.jpg';
 const Home = () => {
     return (
     <body>
@@ -41,21 +44,21 @@ const Home = () => {
 
             <div className="row">
                 <div className="column">
-                    <img className="illustimg" src="images/background-img/boromir.jpg" alt=""/>
+                    <img className="illustimg" src={boromir} alt=""/>
                         <i>"Boromir's last Stand"</i>
                 </div>
                 <div className="column">
-                    <img className="illustimg" src="images/background-img/prancing-pony.jpg" alt="" />
+                    <img className="illustimg" src={Prancing_pony} alt="" />
                         <i>"At the sign of the Prancing Pony"</i>
                 </div>
             </div>
             <div className="row">
                 <div className="column">
-                    <img className="illustimg" src="images/background-img/rosie-and-sam.jpg" alt=""/>
+                    <img className="illustimg" src={Sam_and_Rosie} alt=""/>
                         <i>"Sam and Rosie Cotton"</i>
                 </div>
                 <div className="column">
-                    <img className="white-tree" src="images/background-img/white_tree.jpg" alt=""/>
+                    <img className="white-tree" src={White_Tree} alt=""/>
                     <i className="align-i">"The White Tree"</i>
                 </div>
             </div>

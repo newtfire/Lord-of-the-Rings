@@ -1,5 +1,6 @@
 import React from "react";
-import ScriptTag from "react-script-tag";
+import lotr_xquery from "./images/background-img/lotr.xquery.png";
+import flowchart from "./images/background-img/mermaid_flowchart.png";
 
 const Method = () => {
     return (
@@ -32,12 +33,12 @@ const Method = () => {
                 <h1
                     className="pg-heading">Our Code</h1>
                 <h2>Flowchart</h2>
-                <center><img src="" alt="" width="1000"
+                <center><img src={flowchart} alt="" width="1000"
                     className="center"/></center>
 
 
-                <h2>xquery</h2>
-                <center><img src="" alt="" width="1000"
+                <h2>Xquery</h2>
+                <center><img src={lotr_xquery} alt="" width="1000"
                     className="center"/></center>
 
                 <h2>Python using Spacy</h2>

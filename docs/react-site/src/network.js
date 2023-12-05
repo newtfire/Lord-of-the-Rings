@@ -1,4 +1,7 @@
 import React from "react";
+import Final_network from "./images/background-img/Final_network.png";
+import ORG_network from "./images/background-img/ORG-network.png";
+
 const Network = () => {
     return (
     <body>
@@ -28,23 +31,22 @@ const Network = () => {
             </div>
             <h2>Cytoscape Network</h2>
             <figure>
-                <img src="" alt=""/>
+                <img src={Final_network} alt=""/>
                 <figcaption>This network essentially summarizes all three books "The Fellowship of the Ring", "The Two Towers", and "The Return of the King", using Spacy's Natural
                     Language Processor. This shows the relationships each organization, location, Nationality, famous infrastructure, and Country/Realm has with one another into
                     one single defining network. I color coded the pathways with purple indicating the connections toward the Fellowship of the Ring, green for The Two Towers,
                     and Red for The Return of the King.</figcaption>
             </figure>
             <figure>
-                <img src="" alt=""/>
+                <img src={ORG_network} alt=""/>
                 <figcaption>This network shows how all the Organization entities interact with all three books. This probably isn't the best visualization since all the
                     nodes and edges are bunched up together, but it shows how many Organizations are mentioned in relation to Tolkien's Lord of the Rings. The purple edge describes connections to The Fellowship.
                     Red describes connections to the Return of the King, and the Green describes connections to The Twin Towers.</figcaption>
             </figure>
         </div>
     </div>
-    <script src="quotes.js"></script>
     </body>
     );
-};
+}
 
 export default Network()
