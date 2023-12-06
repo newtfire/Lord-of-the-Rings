@@ -6,21 +6,6 @@ import White_Tree from './images/background-img/white_tree.jpg';
 const Home = () => {
     return (
     <body>
-    <div className="header-img">
-        <h1>Home</h1>
-    </div>
-    <nav>
-        <ul>
-            <li><a href="index.js"><span className="button">Home</span></a></li>
-            <li><a href="network.js"><span className="button">Network</span></a></li>
-            <li><a href="Analysis.html"><span className="button">Analysis</span></a></li>
-            <li><a href="method.js"><span className="button">Methods</span></a></li>
-        </ul>
-        <div className="quotes">
-            <p id="line1"></p>
-        </div>
-    </nav>
-
     <div className="title-img">
         <div className="block">
             <svg height="210" width="950">
@@ -74,7 +59,6 @@ const Home = () => {
             </footer>
         </div>
     </div>
-    <script src="quotes.js"></script>
     </body>
     );
 };

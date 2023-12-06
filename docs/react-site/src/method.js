@@ -4,32 +4,8 @@ import flowchart from "./images/background-img/mermaid_flowchart.png";
 
 const Method = () => {
     return (
-        <body>
-        <div
-            className="header-img">
-            <h1>Methods</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.js"><span
-                    className="button">Home</span></a></li>
-                <li><a href="network.js"><span
-                    className="button">Network</span></a></li>
-                <li><a href="Analysis.html"><span
-                    className="button">Analysis</span></a></li>
-                <li><a href="method.js"><span
-                    className="button">Methods</span></a></li>
-            </ul>
-            <div
-                className="quotes">
-                <p id="line1"></p>
-            </div>
-        </nav>
-
-        <div
-            className="title-img">
-            <div
-                className="block">
+        <div className="title-img">
+            <div className="block">
                 <h1
                     className="pg-heading">Our Code</h1>
                 <h2>Flowchart</h2>
@@ -69,8 +45,6 @@ const Method = () => {
                         className="table-desc">As a group including Dr. B: We all worked on organizing the Spacy package in python as well as adjusting a few things with Xquery.</p></p>
             </div>
         </div>
-        <script src="quotes.js"></script>
-        </body>
     );
 };
 
