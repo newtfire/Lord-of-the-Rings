@@ -9,18 +9,19 @@ import Network from "./network"
 import Method  from "./method";
 import {NavBar} from "./NavBar";
 
+
 function App(){
   return (
     <>
     <div className="header-img">
-    <h1>Home</h1>
+      <h1>Home</h1>
     </div>
       <Router>
         <NavBar/>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route path="network" element={<Network/>}/>
-          <Route path="methods"   element={<Method/>}/>
+          <Route path="method"   element={<Method/>}/>
         </Routes>
       </Router>
     </>

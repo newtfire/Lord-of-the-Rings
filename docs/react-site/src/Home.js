@@ -3,9 +3,9 @@ import boromir from './images/background-img/boromir.jpg';
 import Prancing_pony from './images/background-img/prancing-pony.jpg';
 import Sam_and_Rosie from './images/background-img/rosie-and-sam.jpg';
 import White_Tree from './images/background-img/white_tree.jpg';
+
 const Home = () => {
     return (
-    <body>
     <div className="title-img">
         <div className="block">
             <svg height="210" width="950">
@@ -59,7 +59,6 @@ const Home = () => {
             </footer>
         </div>
     </div>
-    </body>
     );
 };
 
