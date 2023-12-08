@@ -12,7 +12,7 @@
                stroke-width="20" class="displayBars" id="l-ORG">
         <!--    <animate attributeName="x2" fill="freeze" from="0" to="479.686593151479977" dur="2s"></animate>-->
          </line>
-         <text x="-90" y="50" style="stroke: black;" class="textButton" id="t-ORG" font-family="Calibri">ORG</text>
+         <text x="-90" y="50" style="stroke: black;" class="textButton" id="t-ORG" font-family="Calibri" text-decoration="underline">ORG</text>
       </g>
       <g id="GPE">
          <line x1="0"
@@ -23,7 +23,7 @@
                stroke-width="20" class="displayBars" id="l-GPE">
           <!--  <animate attributeName="x2" from="0" to="236.796285548461985" dur="10s"></animate>-->
          </line>
-         <text x="-90" y="100" style="stroke: black;" class="textButton" id="t-GPE" font-family="Calibri">GPE</text>
+         <text x="-90" y="100" style="stroke: black;" class="textButton" id="t-GPE" font-family="Calibri" text-decoration="underline">GPE</text>
       </g>
       <g id="NORP">
          <line x1="0"
@@ -34,7 +34,7 @@
                stroke-width="20" class="displayBars" id="l-NORP">
           <!--  <animate attributeName="width" from="0" to="14.219384793964016" dur="2s"></animate>-->
          </line>
-         <text x="-90" y="150" style="stroke: black;" class="textButton" id="t-NORP" font-family="Calibri">NORP</text>
+         <text x="-90" y="150" style="stroke: black;" class="textButton" id="t-NORP" font-family="Calibri" text-decoration="underline">NORP</text>
       </g>
       <g id="LOC">
          <line x1="0"
@@ -45,7 +45,7 @@
                stroke-width="20" class="displayBars" id="l-LOC">
          <!--   <animate attributeName="width" from="0" to="211.404526987811956" dur="2s"></animate>-->
          </line>
-         <text x="-90" y="200" style="stroke: black;" class="textButton" id="t-LOC" font-family="Calibri">LOC</text>
+         <text x="-90" y="200" style="stroke: black;" class="textButton" id="t-LOC" font-family="Calibri" text-decoration="underline">LOC</text>
       </g>
       <g id="FAC">
          <line x1="0"
@@ -56,7 +56,7 @@
                stroke-width="20" class="displayBars" id="l-FAC">
            <!-- <animate attributeName="width" from="0" to="57.893209518282066" dur="2s"></animate>-->
          </line>
-         <text x="-90" y="250" style="stroke: black;" class="textButton" id="t-FAC" font-family="Calibri">FAC</text>
+         <text x="-90" y="250" style="stroke: black;" class="textButton" id="t-FAC" font-family="Calibri" text-decoration="underline">FAC</text>
       </g>
       <line x1="0"
             y1="300"
