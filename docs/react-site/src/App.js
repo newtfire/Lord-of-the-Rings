@@ -9,7 +9,6 @@ import Network from "./network"
 import Method  from "./method";
 import {NavBar} from "./NavBar";
 
-
 function App(){
   return (
     <>

@@ -193,6 +193,11 @@ li {display: inline-block;}
     color: #251607;
 }
 
+.senior_project {
+    background-color: lightseagreen;
+}
+
+
 .text-box {
     text-align: center;
     padding: 5px;
